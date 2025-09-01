@@ -6,7 +6,8 @@
     "genre": "Action",
     "thumbnail": "/covers/thumbnails/All Quiet on the Western Front 2022-thumbnail.jpg",
     "poster": "/covers/posters/All Quiet on the Western Front 2022-poster.jpg",
-    "description": "All Quiet on the Western Front (German: Im Westen nichts Neues, lit. 'Nothing New in the West') is a 2022 German epic anti-war film based on the 1929 novel by Erich Maria Remarque. It is the third film adaptation of the book, after the 1930 and 1979 versions. Co-written, directed and co-produced by Edward Berger, it stars Felix Kammerer, Albrecht Schuch, Daniel Brühl, Sebastian Hülk, Aaron Hilmer, Edin Hasanovic, and Devid Striesow."
+    "description": "All Quiet on the Western Front (German: Im Westen nichts Neues, lit. 'Nothing New in the West') is a 2022 German epic anti-war film based on the 1929 novel by Erich Maria Remarque. It is the third film adaptation of the book, after the 1930 and 1979 versions. Co-written, directed and co-produced by Edward Berger, it stars Felix Kammerer, Albrecht Schuch, Daniel Brühl, Sebastian Hülk, Aaron Hilmer, Edin Hasanovic, and Devid Striesow.",
+    "type": "movie"
   },
   {
     "id": 2,
@@ -15,447 +16,497 @@
     "genre": "Action",
     "thumbnail": "/covers/thumbnails/Inception-2010-thumbnail.jpg",
     "poster": "/covers/posters/Inception-2010-poster.jpg",
-    "description": "Inception is a 2010 science fiction action heist film written and directed by Christopher Nolan, who also produced it with Emma Thomas, his wife. The film stars Leonardo DiCaprio as a professional thief who steals information by infiltrating the subconscious of his targets. He is offered a chance to have his criminal history erased as payment for the implantation of another person's idea into a target's subconscious. The ensemble cast includes Ken Watanabe, Joseph Gordon-Levitt, Marion Cotillard, Elliot Page,[a] Tom Hardy, Cillian Murphy, Tom Berenger, Dileep Rao, and Michael Caine."
+    "description": "Inception is a 2010 science fiction action heist film written and directed by Christopher Nolan, who also produced it with Emma Thomas, his wife. The film stars Leonardo DiCaprio as a professional thief who steals information by infiltrating the subconscious of his targets. He is offered a chance to have his criminal history erased as payment for the implantation of another person's idea into a target's subconscious. The ensemble cast includes Ken Watanabe, Joseph Gordon-Levitt, Marion Cotillard, Elliot Page,[a] Tom Hardy, Cillian Murphy, Tom Berenger, Dileep Rao, and Michael Caine.",
+    "type": "movie"
   },
   {
-    "id": 2,
+    "id": 3,
+    "title": "Terminator: Dark Fate",
+    "year": 2019,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/Terminator Dark Fate-thumbnail.jpg",
+    "poster": "/covers/posters/Terminator Dark Fate-poster.jpg",
+    "description": "Terminator: Dark Fate is a 2019 American science fiction action film directed by Tim Miller and written by David S. Goyer, Justin Rhodes, and Billy Ray. It is the sixth film in the Terminator franchise and a direct sequel to Terminator 2: Judgment Day (1991), ignoring the events of the intervening sequels.",
+    "type": "movie"
+  },
+  {
+    "id": 4,
+    "title": "Spider-Man 2",
+    "year": 2004,
+    "genre": "Si-Fi",
+    "thumbnail": "/covers/thumbnails/Spider-Man 2-thumbnail.webp",
+    "poster": "/covers/posters/Spider-Man 2-poster.webp",
+    "description": "Spider-Man 2 is a 2004 American superhero film based on the Marvel Comics character Spider-Man. Directed by Sam Raimi and written by Alvin Sargent from a story conceived by Michael Chabon and the writing team of Alfred Gough and Miles Millar, the film was produced by Columbia Pictures in association with Marvel Enterprises and Laura Ziskin Productions, and distributed by Sony Pictures Releasing. It is the second installment in Raimi's Spider-Man trilogy and the sequel to Spider-Man (2002). The film stars Tobey Maguire as Peter Parker / Spider-Man, alongside Kirsten Dunst, James Franco, Alfred Molina, Rosemary Harris, and Donna Murphy. Peter Parker fights to stop scientist Dr. Otto Octavius from recreating a dangerous experiment, while also dealing with a personal crisis.",
+    "type": "movie"
+  },
+  {
+    "id": 5,
+    "title": "Joker ",
+    "year": 2019,
+    "genre": "Drama",
+    "thumbnail": "/covers/thumbnails/Joker-thumbnail.jpg",
+    "poster": "/covers/posters/Joker-poster.jpg",
+    "description": "Joker is a 2019 American psychological thriller film directed by Todd Phillips from a screenplay he co-wrote with Scott Silver. Based on DC Comics characters, it stars Joaquin Phoenix and provides an alternative origin story for the Joker. The film follows Arthur Fleck, a struggling clown and aspiring stand-up comedian whose descent into mental illness and nihilism inspires a violent countercultural revolution against the wealthy in a decaying Gotham City. Robert De Niro, Zazie Beetz, and Frances Conroy appear in supporting roles. Distributed by Warner Bros. Pictures, Joker was produced by Warner Bros. Pictures and DC Films in association with Village Roadshow Pictures, Bron Creative and Joint Effort.",
+    "type": "movie"
+  },
+  {
+    "id": 6,
+    "title": "Pirates of the Caribbean: Dead Men Tell No Tales",
+    "year": 2017,
+    "genre": "Fantasy",
+    "thumbnail": "/covers/thumbnails/Pirates of the Caribbean Dead Men Tell No Tales-thumbnail.webp",
+    "poster": "/covers/posters/Pirates of the Caribbean Dead Men Tell No Tales-poster.webp",
+    "description": "Pirates of the Caribbean: Dead Men Tell No Tales (released in some territories as Pirates of the Caribbean: Salazar's Revenge) is a 2017 American swashbuckler fantasy film directed by Joachim Rønning and Espen Sandberg, and written by Jeff Nathanson. It is the fifth film in the Pirates of the Caribbean film series and stars an ensemble cast including Johnny Depp, Javier Bardem, Geoffrey Rush, Brenton Thwaites, Kaya Scodelario, and Kevin McNally. Its story follows a search for the Trident of Poseidon by a down-on-his-luck Captain Jack Sparrow pursued by Captain Armando Salazar and a crew of deadly ghosts who have escaped from the Devil's Triangle, determined to kill every pirate at sea and take revenge on Sparrow.",
+    "type": "movie"
+  },
+  {
+    "id": 7,
+    "title": "2 Fast 2 Furious",
+    "year": 2003,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/2 Fast 2 Furious-thumbnail.webp",
+    "poster": "/covers/posters/2 Fast 2 Furious-poster.webp",
+    "description": "2 Fast 2 Furious is a 2003 action film directed by John Singleton from a screenplay by Michael Brandt and Derek Haas, based on a story by Brandt, Haas, and Gary Scott Thompson. It is the sequel to The Fast and the Furious (2001) and the second installment in the Fast & Furious franchise. The film stars Paul Walker as Brian O'Conner alongside Tyrese Gibson, Eva Mendes, Cole Hauser, Chris Ludacris Bridges, and James Remar. The plot follows ex-LAPD officer Brian O'Conner and his ex-con friend Roman Pearce, who transport a shipment of dirty money for shady Miami-based import-export dealer Carter Verone while secretly working with undercover agent Monica Fuentes to bring Verone down.",
+    "type": "movie"
+  },
+  {
+    "id": 8,
+    "title": "Deadpool 2",
+    "year": 2018,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/Deadpool-2-thumbnail.webp",
+    "poster": "/covers/posters/Deadpool-2-poster.webp",
+    "description": "Deadpool 2 is a 2018 American superhero film based on the Marvel Comics character Deadpool. It is the sequel to Deadpool (2016) and the eleventh installment in the X-Men film series. The film was directed by David Leitch and written by Rhett Reese, Paul Wernick, and Ryan Reynolds, who stars in the title role alongside Josh Brolin, Morena Baccarin, Julian Dennison, Zazie Beetz, T.J. Miller, Brianna Hildebrand, and Jack Kesy. In the film, Deadpool forms the X-Force to protect a young mutant from the time-traveling soldier Cable.",
+    "type": "movie"
+  },
+  {
+    "id": 9,
+    "title": "Extraction ",
+    "year": 2020,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/Extraction-thumbnail.jpg",
+    "poster": "/covers/posters/Extraction-poster.jpg",
+    "description": "Extraction is a 2020 American action thriller film directed by Sam Hargrave and written by Joe Russo, based on the 2014 graphic novel Ciudad. The film stars Chris Hemsworth, Rudhraksh Jaiswal, Randeep Hooda, Golshifteh Farahani, Pankaj Tripathi and David Harbour. In the film, an Australian black ops mercenary takes on a mission to save an Indian drug lord's kidnapped son in Dhaka, Bangladesh, but the mission goes awry when he is double-crossed.",
+    "type": "movie"
+  },
+  {
+    "id": 10,
+    "title": "Dune: Part Two",
+    "year": 2024,
+    "genre": "Si-Fi",
+    "thumbnail": "/covers/thumbnails/Dune-Part Two-thumbnail.jpg",
+    "poster": "/covers/posters/Dune-Part Two-poster.jpg",
+    "description": "Dune: Part Two is a 2024 American epic space opera film directed by Denis Villeneuve, who co-wrote the screenplay with Jon Spaihts. The sequel to Dune (2021), it is the second of a two-part adaptation of the 1965 novel Dune by Frank Herbert, and the second installment of Villeneuve's Dune film trilogy. It follows Paul Atreides as he unites with the Fremen people of the desert planet Arrakis to wage war against House Harkonnen. Timothée Chalamet, Zendaya, Rebecca Ferguson, Josh Brolin, Stellan Skarsgård, Dave Bautista, Charlotte Rampling, and Javier Bardem reprise their roles from the first film, with Austin Butler, Florence Pugh, Christopher Walken, and Léa Seydoux joining the cast.",
+    "type": "movie"
+  },
+  {
+    "id": 11,
+    "title": "Harry Potter and the Deathly Hallows: Part 2",
+    "year": 2011,
+    "genre": "Si-Fi",
+    "thumbnail": "/covers/thumbnails/Harry Potter and the Deathly Hallows Part 2-thumbnail.jpg",
+    "poster": "/covers/posters/Harry Potter and the Deathly Hallows Part 2-poster.jpg",
+    "description": "Harry Potter and the Deathly Hallows – Part 2 is a 2011 fantasy film directed by David Yates from a screenplay by Steve Kloves.[4] The film is the second of two cinematic parts based on the 2007 novel by J. K. Rowling and the eighth and final instalment of the Harry Potter film series",
+    "type": "movie"
+  },
+  {
+    "id": 12,
+    "title": "Spider-Man: Far from Home",
+    "year": 2019,
+    "genre": "Si-Fi",
+    "thumbnail": "/covers/thumbnails/Spider-Man Far from Home-thumbnail.jpg",
+    "poster": "/covers/posters/Spider-Man Far from Home-poster.jpg",
+    "description": "Spider-Man: Far From Home is a 2019 American superhero film based on the Marvel Comics character Spider-Man, co-produced by Columbia Pictures and Marvel Studios, and distributed by Sony Pictures Releasing. It is the sequel to Spider-Man: Homecoming (2017) and the 23rd film in the Marvel Cinematic Universe (MCU). The film was directed by Jon Watts, written by Chris McKenna and Erik Sommers, and stars Tom Holland as Peter Parker / Spider-Man, alongside Samuel L. Jackson, Zendaya, Cobie Smulders, Jon Favreau, J. B. Smoove, Jacob Batalon, Martin Starr, Tony Revolori, Marisa Tomei, and Jake Gyllenhaal. In the film, Parker is recruited by Nick Fury (Jackson) and Mysterio (Gyllenhaal) to face the Elementals while he is on a school trip to Europe",
+    "type": "movie"
+  },
+  {
+    "id": 13,
+    "title": "Fury ",
+    "year": 2014,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/Fury-thumbnail.jpg",
+    "poster": "/covers/posters/Fury-poster.jpg",
+    "description": "Fury is a 2014 American war film written, directed, and co-produced by David Ayer. It stars Brad Pitt with Shia LaBeouf, Logan Lerman, Michael Peña, and Jon Bernthal as members of an American tank crew fighting in Nazi Germany during the final weeks of the European theater of World War II. Ayer was influenced by the service of military veterans in his family and by reading books such as Belton Y. Cooper's Death Traps, a 1998 memoir that underscores the high casualty rates suffered by American tank crews in combat against their better-equipped German counterparts.",
+    "type": "movie"
+  },
+  {
+    "id": 14,
+    "title": "Harry Potter and the Chamber of Secrets",
+    "year": 2002,
+    "genre": "Si-Fi",
+    "thumbnail": "/covers/thumbnails/Harry Potter and the Chamber of Secrets-thumbnail.jpg",
+    "poster": "/covers/posters/Harry Potter and the Chamber of Secrets-poster.jpg",
+    "description": "Harry Potter and the Chamber of Secrets is a 2002 fantasy film directed by Chris Columbus from a screenplay by Steve Kloves. It is based on the 1998 novel Harry Potter and the Chamber of Secrets by J. K. Rowling. Produced by David Heyman, it is the sequel to Harry Potter and the Philosopher's Stone (2001) and the second instalment in the Harry Potter film series. The film stars Daniel Radcliffe as Harry Potter, with Rupert Grint and Emma Watson as his best friends Ron Weasley and Hermione Granger respectively. The story follows Harry's second year at Hogwarts School of Witchcraft and Wizardry, where the Heir of Salazar Slytherin opens the Chamber of Secrets, unleashing a monster that petrifies the school's students.",
+    "type": "movie"
+  },
+  {
+    "id": 15,
+    "title": "Undisputed II: Last Man Standing",
+    "year": 2006,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/Undisputed II Last Man Standing-thumbnail.jpg",
+    "poster": "/covers/posters/Undisputed II Last Man Standing-poster.jpg",
+    "description": "Undisputed II: Last Man Standing is a 2006 American direct-to-video martial arts action film directed by Isaac Florentine and starring Michael Jai White, Scott Adkins, Eli Danker and Ben Cross. It is the sequel to the boxing movie Undisputed (2002), and the second installment in the Undisputed franchise. White portrays ex-boxer George Iceman Chambers, a role originally played by Ving Rhames in the first film. It was followed by two sequels: Undisputed III: Redemption (2010) and Boyka: Undisputed (2017), which continues the story of Russian prison fighter Yuri Boyka, played by Adkins.",
+    "type": "movie"
+  },
+  {
+    "id": 16,
+    "title": "Pirates of the Caribbean: On Stranger Tides",
+    "year": 2011,
+    "genre": "Si-Fi",
+    "thumbnail": "/covers/thumbnails/Pirates of the Caribbean On Stranger Tides-thumbnail.jpg",
+    "poster": "/covers/posters/Pirates of the Caribbean On Stranger Tides-poster.jpg",
+    "description": "Pirates of the Caribbean: On Stranger Tides is a 2011 American fantasy swashbuckler film directed by Rob Marshall, produced by Jerry Bruckheimer, and written by Ted Elliott and Terry Rossio, loosely based on the 1987 novel On Stranger Tides by Tim Powers. It is the fourth film in the Pirates of the Caribbean film series. Johnny Depp, Kevin R. McNally and Geoffrey Rush reprise their roles from the previous films, with Penélope Cruz and Ian McShane joining the cast. The story follows the eccentric pirate Captain Jack Sparrow on a quest for the Fountain of Youth after crossing paths with Angelica, a mysterious woman from his past, and being forced aboard the Queen Anne's Revenge, the ship of the legendary pirate Blackbeard.",
+    "type": "movie"
+  },
+  {
+    "id": 17,
+    "title": "F9",
+    "year": 2021,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/F9-thumbnail.jpg",
+    "poster": "/covers/posters/F9-poster.jpg",
+    "description": "F9 (also known as F9: The Fast Saga or Fast & Furious 9) is a 2021 action film directed by Justin Lin, who co-wrote the screenplay with Daniel Casey.[7] It is the ninth installment and the sequel to The Fate of the Furious (2017) and Hobbs & Shaw (2019), and the overall tenth installment in the Fast & Furious franchise. It stars Vin Diesel as Dominic Dom Toretto, alongside Michelle Rodriguez, Tyrese Gibson, Chris Ludacris Bridges, John Cena, Nathalie Emmanuel, Jordana Brewster, Sung Kang, Michael Rooker, Helen Mirren, Kurt Russell, and Charlize Theron. In the film, Dom and his team aim to stop Otto, the son of a wealthy head of state, from activating Project Aries, a dangerous advanced weapons program.",
+    "type": "movie"
+  },
+  {
+    "id": 18,
+    "title": "Wonder Park",
+    "year": 2019,
+    "genre": "Comedy",
+    "thumbnail": "/covers/thumbnails/Wonder Park-thumbnail.jpg",
+    "poster": "/covers/posters/Wonder Park-poster.jpg",
+    "description": "Wonder Park is a 2019 animated adventure comedy film produced by Paramount Animation, Nickelodeon Movies, and Ilion Animation Studios handling animation. The plot follows a young girl who encounters a real version of her magical amusement park run by anthropomorphic animals. The film stars the voice talents of Jennifer Garner, Matthew Broderick, John Oliver, Mila Kunis, Kenan Thompson, Ken Jeong, Norbert Leo Butz, Brianna Denski in her film debut, and Ken Hudson Campbell.",
+    "type": "movie"
+  },
+  {
+    "id": 19,
+    "title": "Pirates of the Caribbean: At World's End",
+    "year": 2007,
+    "genre": "Si-Fi",
+    "thumbnail": "/covers/thumbnails/Pirates of the Caribbean At World's End-thumbnail.jpg",
+    "poster": "/covers/posters/Pirates of the Caribbean At World's End-poster.jpg",
+    "description": "Pirates of the Caribbean: At World's End is a 2007 American epic fantasy swashbuckler film directed by Gore Verbinski, produced by Jerry Bruckheimer, and written by Ted Elliott and Terry Rossio. The direct sequel to Pirates of the Caribbean: Dead Man's Chest (2006), it is the third installment in the Pirates of the Caribbean film series, and follows an urgent quest to locate and save Captain Jack Sparrow (Johnny Depp), trapped on a sea of sand in Davy Jones' Locker, and convene the Brethren Court in a war against the East India Trading Company. In an uneasy alliance, Will Turner (Orlando Bloom), Elizabeth Swann (Keira Knightley), Hector Barbossa (Geoffrey Rush), and the Black Pearl crew rescue Jack and prepare to fight Lord Cutler Beckett, who controls Davy Jones and the Flying Dutchman.",
+    "type": "movie"
+  },
+  {
+    "id": 20,
+    "title": "Ant-Man",
+    "year": 2015,
+    "genre": "Si-Fi",
+    "thumbnail": "/covers/thumbnails/Ant-Man-thumbnail.jpg",
+    "poster": "/covers/posters/Ant-Man-poster.jpg",
+    "description": "Ant-Man is a 2015 American superhero film based on the Marvel Comics characters of the same name: Scott Lang and Hank Pym. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is the 12th film in the Marvel Cinematic Universe (MCU). The film was directed by Peyton Reed from a screenplay by the writing teams of Edgar Wright & Joe Cornish and Adam McKay & Paul Rudd. It stars Rudd as Scott Lang / Ant-Man alongside Evangeline Lilly, Corey Stoll, Bobby Cannavale, Michael Peña, Tip T.I. Harris, Anthony Mackie, Wood Harris, Judy Greer, Abby Ryder Fortson, David Dastmalchian, and Michael Douglas as Hank Pym. In the film, Lang must help defend Pym's Ant-Man shrinking technology and plot a heist with worldwide ramifications.",
+    "type": "movie"
+  },
+  {
+    "id": 21,
+    "title": "Spider-Man: Into the Spider-Verse",
+    "year": 2018,
+    "genre": "Si-Fi",
+    "thumbnail": "/covers/thumbnails/Spider-Man Into the Spider-Verse-thumbnail.jpg",
+    "poster": "/covers/posters/Spider-Man Into the Spider-Verse-poster.jpg",
+    "description": "Spider-Man: Into the Spider-Verse is a 2018 American animated superhero film based on the Marvel Comics character Spider-Man. Directed by Bob Persichetti, Peter Ramsey and Rodney Rothman from a screenplay by Phil Lord and Rothman, and starring Shameik Moore as Miles Morales, with Jake Johnson, Hailee Steinfeld, Mahershala Ali, Brian Tyree Henry, Lily Tomlin, Luna Lauren Vélez, John Mulaney, Kimiko Glenn, Nicolas Cage and Liev Schreiber in supporting roles, the film's story follows Miles as he becomes the new Spider-Man and joins other Spider-People from various parallel universes who team up to save his universe from the Kingpin. The first animated film in the Spider-Man franchise, it was produced by Columbia Pictures and Sony Pictures Animation in association with Marvel Entertainment.",
+    "type": "movie"
+  },
+  {
+    "id": 22,
+    "title": "Avengers: Infinity War",
+    "year": 2018,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/Avengers Infinity War-thumbnail.jpg",
+    "poster": "/covers/posters/Avengers Infinity War-poster.jpg",
+    "description": "Avengers: Infinity War is a 2018 American superhero film based on the Marvel Comics superhero team the Avengers. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is the sequel to The Avengers (2012) and Avengers: Age of Ultron (2015), and the 19th film in the Marvel Cinematic Universe (MCU). Directed by Anthony and Joe Russo and written by Christopher Markus and Stephen McFeely, the film features an ensemble cast including Robert Downey Jr., Chris Hemsworth, Mark Ruffalo, Chris Evans, Scarlett Johansson, Benedict Cumberbatch, Don Cheadle, Tom Holland, Chadwick Boseman, Paul Bettany, Elizabeth Olsen, Anthony Mackie, Sebastian Stan, Danai Gurira, Letitia Wright, Dave Bautista, Zoe Saldaña, Josh Brolin, and Chris Pratt. In the film, the Avengers and the Guardians of the Galaxy attempt to stop Thanos from collecting the six powerful Infinity Stones as part of his quest to kill half of all life in the universe.",
+    "type": "movie"
+  },
+  {
+    "id": 23,
+    "title": "The Fate of the Furious",
+    "year": 2017,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/The Fate of the Furious-thumbnail.jpg",
+    "poster": "/covers/posters/The Fate of the Furious-poster.jpg",
+    "description": "The Fate of the Furious (also known as F8 or Fast & Furious 8) is a 2017 action film directed by F. Gary Gray and written by Chris Morgan. It is the sequel to Furious 7 (2015) and the eighth installment in the Fast & Furious franchise. The film stars Vin Diesel as Dominic Toretto, alongside Dwayne Johnson, Jason Statham, Michelle Rodriguez, Tyrese Gibson, Chris Ludacris Bridges, Scott Eastwood, Nathalie Emmanuel, Elsa Pataky, Kurt Russell, and Charlize Theron. In the film, Dom has settled down with his wife Letty Ortiz, until cyberterrorist Cipher (Theron) coerces him into working for her and turns him against his team, forcing them to find Dom and take down Cipher.",
+    "type": "movie"
+  },
+  {
+    "id": 24,
+    "title": "Undisputed",
+    "year": 2002,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/Undisputed-thumbnail.jpg",
+    "poster": "/covers/posters/Undisputed-poster.jpg",
+    "description": "Undisputed is a 2002 American sports drama film written, produced and directed by Walter Hill. The film stars Wesley Snipes, Ving Rhames, Peter Falk, Michael Rooker, Jon Seda, Wes Studi, Fisher Stevens, and Master P.",
+    "type": "movie"
+  },
+  {
+    "id": 25,
+    "title": "Undisputed III: Redemption",
+    "year": 2010,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/Undisputed III Redemption-thumbnail.jpg",
+    "poster": "/covers/posters/Undisputed III Redemption-poster.jpg",
+    "description": "Undisputed III: Redemption is a 2010 American martial arts action film directed by Isaac Florentine and starring Scott Adkins, Mykel Shannon Jenkins, Mark Ivanir and Hristo Shopov. It is the sequel to Undisputed II: Last Man Standing (2007), and the third installment overall in the Undisputed franchise. The movie's events take place several years chronologically after the events Last Man Standing.",
+    "type": "movie"
+  },
+  {
+    "id": 26,
+    "title": "Rango",
+    "year": 2011,
+    "genre": "Comedy",
+    "thumbnail": "/covers/thumbnails/Rango-thumbnail.jpg",
+    "poster": "/covers/posters/Rango-poster.jpg",
+    "description": "Rango is a 2011 American animated Western comedy film directed by Gore Verbinski and written by John Logan. The film stars Johnny Depp, with Isla Fisher, Abigail Breslin, Alfred Molina, Bill Nighy, Harry Dean Stanton, Ray Winstone and Timothy Olyphant in supporting roles. In the film, a pet chameleon ends up in the town of Dirt, an outpost that is in desperate need of a new sheriff.",
+    "type": "movie"
+  },
+  {
+    "id": 27,
+    "title": "Avengers: Endgame",
+    "year": 2019,
+    "genre": "Si-Fi",
+    "thumbnail": "/covers/thumbnails/Avengers Endgame-thumbnail.jpg",
+    "poster": "/covers/posters/Avengers Endgame-poster.jpg",
+    "description": "Avengers: Endgame is a 2019 American superhero film based on the Marvel Comics superhero team the Avengers. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is the direct sequel to Avengers: Infinity War (2018) and the 22nd film in the Marvel Cinematic Universe (MCU). Directed by Anthony and Joe Russo and written by Christopher Markus and Stephen McFeely, the film features an ensemble cast which includes Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson, Jeremy Renner, Don Cheadle, Paul Rudd, Brie Larson, Karen Gillan, Danai Gurira, Benedict Wong, Jon Favreau, Bradley Cooper, Gwyneth Paltrow, and Josh Brolin. In the film, the surviving members of the Avengers and their allies attempt to reverse Thanos's actions in Infinity War which erased half of all life in the universe.",
+    "type": "movie"
+  },
+  {
+    "id": 28,
+    "title": "The Hobbit: An Unexpected Journey",
+    "year": 2012,
+    "genre": "Si-Fi",
+    "thumbnail": "/covers/thumbnails/The Hobbit An Unexpected Journey-thumbnail.jpg",
+    "poster": "/covers/posters/The Hobbit An Unexpected Journey-poster.jpg",
+    "description": "The Hobbit: An Unexpected Journey is a 2012 epic high fantasy adventure film directed by Peter Jackson from a screenplay by Fran Walsh, Philippa Boyens, Jackson, and Guillermo del Toro. It is based on the 1937 novel The Hobbit by J. R. R. Tolkien. The Hobbit trilogy is a prequel to Jackson's The Lord of the Rings trilogy.",
+    "type": "movie"
+  },
+  {
+    "id": 29,
+    "title": "Pirates of the Caribbean: Dead Man's Chest",
+    "year": 2006,
+    "genre": "Si-Fi",
+    "thumbnail": "/covers/thumbnails/Pirates of the Caribbean Dead Man's Chest-thumbnail.jpg",
+    "poster": "/covers/posters/Pirates of the Caribbean Dead Man's Chest-poster.jpg",
+    "description": "Pirates of the Caribbean: Dead Man's Chest is a 2006 American fantasy swashbuckler film directed by Gore Verbinski, written by Ted Elliott and Terry Rossio, and produced by Jerry Bruckheimer. The sequel to Pirates of the Caribbean: The Curse of the Black Pearl (2003), it is the second installment in the Pirates of the Caribbean film series. It is set a year after the first film and follows Captain Jack Sparrow who owes a debt to Davy Jones (Bill Nighy), the ghastly captain of the Flying Dutchman, and being marked for death and pursued by the Kraken. Meanwhile, the wedding of Will Turner (Orlando Bloom) and Elizabeth Swann (Keira Knightley) is interrupted by Lord Cutler Beckett (Tom Hollander), who wants Turner to acquire Jack's magic compass in a bid to find the Dead Man's Chest",
+    "type": "movie"
+  },
+  {
+    "id": 30,
+    "title": "Harry Potter and the Goblet of Fire",
+    "year": 2005,
+    "genre": "Si-Fi",
+    "thumbnail": "/covers/thumbnails/Harry Potter and the Goblet of Fire-thumbnail.jpg",
+    "poster": "/covers/posters/Harry Potter and the Goblet of Fire-poster.jpg",
+    "description": "Harry Potter and the Goblet of Fire is a 2005 fantasy film directed by Mike Newell from a screenplay by Steve Kloves. It is based on the 2000 novel Harry Potter and the Goblet of Fire by J. K. Rowling. It is the sequel to Harry Potter and the Prisoner of Azkaban (2004) and the fourth instalment in the Harry Potter film series. The film stars Daniel Radcliffe as Harry Potter, alongside Rupert Grint and Emma Watson as Harry's best friends Ron Weasley and Hermione Granger, respectively. The story follows Harry's fourth year at Hogwarts, as he is chosen by the Goblet of Fire to compete in the Triwizard Tournament.",
+    "type": "movie"
+  },
+  {
+    "id": 31,
+    "title": "Terminator 3: Rise of the Machines",
+    "year": 2003,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/Terminator 3 Rise of the Machines-thumbnail.jpg",
+    "poster": "/covers/posters/Terminator 3 Rise of the Machines-poster.jpg",
+    "description": "Terminator 3: Rise of the Machines[a] is a 2003 science fiction action film, the third installment in the Terminator franchise and a sequel to Terminator 2: Judgment Day (1991). It was directed by Jonathan Mostow and stars Arnold Schwarzenegger, Nick Stahl, Claire Danes, and Kristanna Loken. In its plot, the malevolent artificial intelligence Skynet sends a T-X (Loken)—a highly advanced Terminator—back in time to ensure the rise of machines by killing top members of the future human resistance as John Connor's (Stahl) location is unknown. The resistance sends back a reprogrammed T-850 (Schwarzenegger) to protect John and Kate (Danes).",
+    "type": "movie"
+  },
+  {
+    "id": 32,
+    "title": "Taken 2",
+    "year": 2012,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/Taken 2-thumbnail.jpg",
+    "poster": "/covers/posters/Taken 2-poster.jpg",
+    "description": "Taken 2 is a 2012 French action-thriller film directed by Olivier Megaton and starring Liam Neeson, Maggie Grace, Famke Janssen, Rade Šerbedžija, Leland Orser, Jon Gries, D.B. Sweeney, and Luke Grimes. It follows retired CIA officer Bryan Mills as he ends up with his family in Istanbul, where he is kidnapped, along with his ex-wife, by the father of one of the men he killed while saving his daughter two years earlier.",
+    "type": "movie"
+  },
+  {
+    "id": 33,
+    "title": "Fast & Furious 6",
+    "year": 2013,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/Fast & Furious 6-thumbnail.jpg",
+    "poster": "/covers/posters/Fast & Furious 6-poster.jpg",
+    "description": "Fast & Furious 6 (titled onscreen as Furious 6) is a 2013 action film directed by Justin Lin and written by Chris Morgan. It is the sequel to Fast Five (2011) and the sixth installment in the Fast & Furious franchise. The film stars Vin Diesel as Dominic Toretto and Paul Walker as Brian O'Conner, alongside Dwayne Johnson, Michelle Rodriguez, Jordana Brewster, Tyrese Gibson, Chris Ludacris Bridges, Sung Kang, Luke Evans, Gina Carano, and John Ortiz. In the film, Dom, Brian and their team are offered pardons for their crimes in exchange for helping DSS agent Luke Hobbs apprehend Owen Shaw (Evans), an ex-British SAS Major, who runs a mercenary organization in which Dom's former lover Letty is also a member.",
+    "type": "movie"
+  },
+  {
+    "id": 34,
+    "title": "Avengers: Age of Ultron",
+    "year": 2015,
+    "genre": "Si-Fi",
+    "thumbnail": "/covers/thumbnails/Avengers Age of Ultron-thumbnail.jpg",
+    "poster": "/covers/posters/Avengers Age of Ultron-poster.jpg",
+    "description": "Avengers: Age of Ultron is a 2015 American superhero film based on the Marvel Comics superhero team the Avengers. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is the sequel to The Avengers (2012) and the 11th film in the Marvel Cinematic Universe (MCU). Written and directed by Joss Whedon, the film features an ensemble cast including Robert Downey Jr., Chris Hemsworth, Mark Ruffalo, Chris Evans, Scarlett Johansson, Jeremy Renner, Don Cheadle, Aaron Taylor-Johnson, Elizabeth Olsen, Paul Bettany, Cobie Smulders, Anthony Mackie, Hayley Atwell, Idris Elba, Linda Cardellini, Stellan Skarsgård, James Spader, and Samuel L. Jackson. In the film, the Avengers fight Ultron (Spader)—an artificial intelligence created by Tony Stark (Downey) and Bruce Banner (Ruffalo)—who plans to bring about world peace by causing human extinction.",
+    "type": "movie"
+  },
+  {
+    "id": 35,
+    "title": "The Fast and the Furious: Tokyo Drift",
+    "year": 2006,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/The Fast and the Furious Tokyo Drift-thumbnail.jpg",
+    "poster": "/covers/posters/The Fast and the Furious Tokyo Drift-poster.jpg",
+    "description": "The Fast and the Furious: Tokyo Drift is a 2006 action film directed by Justin Lin and written by Chris Morgan. It is a standalone sequel to The Fast and the Furious (2001) and 2 Fast 2 Furious (2003), and the third installment in the Fast & Furious franchise. Within the story's continuity, the film is set between Fast & Furious 6 (2013) and Furious 7 (2015). It stars Lucas Black and Bow Wow. In the film, car enthusiast Sean Boswell (Black) is sent to live in Tokyo with his estranged father and finds solace exploring the city's drifting community.",
+    "type": "movie"
+  },
+  {
+    "id": 36,
+    "title": "Harry Potter and the Deathly Hallows: Part 1",
+    "year": 2010,
+    "genre": "Fantasy",
+    "thumbnail": "/covers/thumbnails/Harry Potter and the Deathly Hallows Part 1-thumbnail.jpg",
+    "poster": "/covers/posters/Harry Potter and the Deathly Hallows Part 1-poster.jpg",
+    "description": "Harry Potter and the Deathly Hallows – Part 1 is a 2010 fantasy film directed by David Yates from a screenplay by Steve Kloves.[5] The film is the first of two cinematic parts based on the 2007 novel Harry Potter and the Deathly Hallows by J. K. Rowling. It is the sequel to Harry Potter and the Half-Blood Prince (2009) and the seventh instalment in the Harry Potter film series.[6] The film stars Daniel Radcliffe as Harry Potter, with Rupert Grint and Emma Watson, respectively, reprising roles as Harry's best friends Ron Weasley and Hermione Granger. The story follows Harry Potter, who has been asked by Dumbledore to find and destroy Lord Voldemort's secret to immortality – the Horcruxes.",
+    "type": "movie"
+  },
+  {
+    "id": 37,
+    "title": "Furious 7 ",
+    "year": 2015,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/Furious 7-thumbnail.jpg",
+    "poster": "/covers/posters/Furious 7-poster.jpg",
+    "description": "Furious 7 (also known as Fast & Furious 7) is a 2015 action film directed by James Wan and written by Chris Morgan. It is the sequel to Fast & Furious 6 (2013), a follow-up to The Fast and the Furious: Tokyo Drift (2006), and the seventh installment in the Fast & Furious franchise. The film stars an ensemble cast including Vin Diesel, Paul Walker (in his final film role), Dwayne Johnson, Michelle Rodriguez, Tyrese Gibson, Chris Ludacris Bridges, Jordana Brewster, Djimon Hounsou, Kurt Russell and Jason Statham. In the film, Dominic Toretto, Brian O'Conner and their team are recruited by covert ops leader Mr. Nobody to prevent Mose Jakande (Hounsou), a terrorist, from obtaining a hacking program known as God's Eye.",
+    "type": "movie"
+  },
+  {
+    "id": 38,
+    "title": "Fast Five",
+    "year": 2011,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/Fast Five-thumbnail.jpg",
+    "poster": "/covers/posters/Fast Five-poster.jpg",
+    "description": "Fast Five (also known as Fast & Furious 5) is a 2011 action film directed by Justin Lin and written by Chris Morgan. It is the sequel to Fast & Furious (2009) and the fifth installment in the Fast & Furious franchise. The film stars Vin Diesel as Dominic Toretto and Paul Walker as Brian O'Conner, alongside Jordana Brewster, Tyrese Gibson, Gal Gadot, Chris Ludacris Bridges, Matt Schulze, Sung Kang and Dwayne Johnson. In the film, Dom and Brian, along with Dom's sister Mia plan a heist to steal $100 million from corrupt businessman Hernan Reyes while being pursued for arrest by U.S. Diplomatic Security Service (DSS) agent Luke Hobbs.",
+    "type": "movie"
+  },
+  {
+    "id": 39,
+    "title": "Ted",
+    "year": 2012,
+    "genre": "Comedy",
+    "thumbnail": "/covers/thumbnails/Ted-thumbnail.jpg",
+    "poster": "/covers/posters/Ted-poster.jpg",
+    "description": "Ted (stylized in all lowercase) is a 2012 American fantasy buddy comedy film directed and co-produced by Seth MacFarlane and written by MacFarlane, Alec Sulkin, and Wellesley Wild based on a story written by MacFarlane. The first installment in the Ted franchise, the film stars Mark Wahlberg and Mila Kunis, with Joel McHale and Giovanni Ribisi in supporting roles, and MacFarlane providing the voice and motion capture of the title character. The film tells the story of John Bennett, a Boston native whose childhood wish brings his teddy bear friend Ted to life. However, in adulthood, Ted and John's friendship begins to interfere with the progression of John's relationship with his girlfriend, Lori Collins.",
+    "type": "movie"
+  },
+  {
+    "id": 40,
+    "title": "Scarface",
+    "year": 1983,
+    "genre": "Crime",
+    "thumbnail": "/covers/thumbnails/Scarface-thumbnail.jpg",
+    "poster": "/covers/posters/Scarface-poster.jpg",
+    "description": "Scarface is a 1983 American crime drama film directed by Brian De Palma, written by Oliver Stone and starring Al Pacino. It is a remake of the 1932 film, in turn based on the 1930 novel. It tells the story of Cuban refugee Tony Montana, who arrives in Miami during the Mariel boatlift and becomes a powerful drug lord. The film co-stars Michelle Pfeiffer, Stephen Bauer, Robert Loggia and Mary Elizabeth Mastrantonio.",
+    "type": "movie"
+  },
+  {
+    "id": 41,
+    "title": "Doctor Strange",
+    "year": 2016,
+    "genre": "Fantasy",
+    "thumbnail": "/covers/thumbnails/Doctor Strange-thumbnail.jpg",
+    "poster": "/covers/posters/Doctor Strange-poster.jpg",
+    "description": "Doctor Strange is a 2016 American superhero film based on the Marvel Comics character of the same name. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is the 14th film in the Marvel Cinematic Universe (MCU). The film was directed by Scott Derrickson from a screenplay he wrote with Jon Spaihts and C. Robert Cargill, and stars Benedict Cumberbatch as neurosurgeon Stephen Strange along with Chiwetel Ejiofor, Rachel McAdams, Benedict Wong, Michael Stuhlbarg, Benjamin Bratt, Scott Adkins, Mads Mikkelsen, and Tilda Swinton. In the film, Strange learns the mystic arts after a career-ending car crash.",
+    "type": "movie"
+  },
+  {
+    "id": 42,
+    "title": "Taken 3",
+    "year": 2015,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/Taken 3-thumbnail.jpg",
+    "poster": "/covers/posters/Taken 3-poster.jpg",
+    "description": "Taken 3 (sometimes stylized as TAK3N) is a 2015 English-language action-thriller film that is the third and final film in the Taken trilogy, starring Liam Neeson as a former government operative. The French production was directed by Olivier Megaton and written by Luc Besson and Robert Mark Kamen. The cast also includes Forest Whitaker, Maggie Grace, and Famke Janssen. Mills (Neeson) is falsely accused of murder and gets tracked by a police inspector (Whitaker) and uses his skill set to prove his innocence and find the real murderer.",
+    "type": "movie"
+  },
+  {
+    "id": 43,
+    "title": "Black Panther: Wakanda Forever",
+    "year": 2022,
+    "genre": "Fantasy",
+    "thumbnail": "/covers/thumbnails/Black Panther Wakanda Forever-thumbnail.jpg",
+    "poster": "/covers/posters/Black Panther Wakanda Forever-poster.jpg",
+    "description": "Black Panther: Wakanda Forever is a 2022 American superhero film based on Marvel Comics featuring the character Shuri / Black Panther. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is the sequel to Black Panther (2018) and the 30th film in the Marvel Cinematic Universe (MCU). Directed by Ryan Coogler, who co-wrote the screenplay with Joe Robert Cole, the film stars Letitia Wright as Shuri / Black Panther, alongside Lupita Nyong'o, Danai Gurira, Winston Duke, Florence Kasumba, Dominique Thorne, Michaela Coel, Mabel Cadena, Tenoch Huerta Mejía, Martin Freeman, Julia Louis-Dreyfus, and Angela Bassett. In the film, the leaders of Wakanda fight to protect their nation in the wake of King T'Challa's death.",
+    "type": "movie"
+  },
+  {
+    "id": 44,
+    "title": "Doctor Strange in the Multiverse of Madness",
+    "year": 2022,
+    "genre": "Fantasy",
+    "thumbnail": "/covers/thumbnails/Doctor Strange in the Multiverse of Madness-thumbnail.jpg",
+    "poster": "/covers/posters/Doctor Strange in the Multiverse of Madness-poster.jpg",
+    "description": "Doctor Strange in the Multiverse of Madness is a 2022 American superhero film based on Marvel Comics featuring the character Doctor Strange. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is the sequel to Doctor Strange (2016) and the 28th film in the Marvel Cinematic Universe (MCU). The film was directed by Sam Raimi, written by Michael Waldron, and stars Benedict Cumberbatch as Stephen Strange, alongside Elizabeth Olsen, Chiwetel Ejiofor, Benedict Wong, Xochitl Gomez, Michael Stuhlbarg, and Rachel McAdams. In the film, Strange must protect America Chavez (Gomez), a teenager capable of traveling the multiverse, from the Scarlet Witch (Olsen).",
+    "type": "movie"
+  },
+  {
+    "id": 45,
+    "title": "Spider-Man 3",
+    "year": 2007,
+    "genre": "Fantasy",
+    "thumbnail": "/covers/thumbnails/Spider-Man 3-thumbnail.jpg",
+    "poster": "/covers/posters/Spider-Man 3-poster.jpg",
+    "description": "Spider-Man 3 is a 2007 American superhero film based on the Marvel Comics character Spider-Man. Produced by Columbia Pictures, Marvel Entertainment, and Laura Ziskin Productions, and distributed by Sony Pictures Releasing, it was directed by Sam Raimi from a screenplay he co-wrote with his brother Ivan and Alvin Sargent. It is the final installment in Raimi's Spider-Man trilogy, and the sequel to Spider-Man (2002) and Spider-Man 2 (2004). The film stars Tobey Maguire as Peter Parker / Spider-Man, alongside Kirsten Dunst, James Franco, Thomas Haden Church, Topher Grace, Bryce Dallas Howard, James Cromwell, Rosemary Harris, and J. K. Simmons. It also marks the final acting appearance of Cliff Robertson before his retirement from acting in the same year and his subsequent death in 2011. Set a year after the events of Spider-Man 2, the film follows Peter Parker as he prepares for his future with Mary Jane Watson, while facing multiple threats: Flint Marko, Uncle Ben's true killer who becomes the Sandman after a freak accident; Harry Osborn, his former best friend who is now aware of Peter's identity and seeks to avenge his father; an extraterrestrial symbiote that increases his abilities but amplifies his anger and other negative traits; and Eddie Brock, a rival photographer who becomes the symbiote's second host Venom.",
+    "type": "movie"
+  },
+  {
+    "id": 46,
+    "title": "Logan ",
+    "year": 2017,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/Logan-thumbnail.jpg",
+    "poster": "/covers/posters/Logan-poster.jpg",
+    "description": "Logan is a 2017 American superhero film starring Hugh Jackman as the titular character. Based on the Marvel Comics character Wolverine, the film was directed by James Mangold, who co-wrote the screenplay with Michael Green and Scott Frank from a story by Mangold. It is the tenth film in the X-Men film series and the third and final installment in the Wolverine trilogy, following X-Men Origins: Wolverine (2009) and The Wolverine (2013). The film, which takes inspiration from the Old Man Logan comics storyline by Mark Millar and Steve McNiven, follows an aged Wolverine and an extremely ill Charles Xavier who must defend a young mutant named Laura from the Reavers led by Donald Pierce and Zander Rice. In addition to Jackman, the film also stars Patrick Stewart, Richard E. Grant, Boyd Holbrook, Stephen Merchant, and introduces Dafne Keen in her film debut as Laura.",
+    "type": "movie"
+  },
+  {
+    "id": 47,
+    "title": "Avatar ",
+    "year": 2009,
+    "genre": "Fantasy",
+    "thumbnail": "/covers/thumbnails/Avatar-thumbnail.jpg",
+    "poster": "/covers/posters/Avatar-poster.jpg",
+    "description": "Avatar is a 2009 epic science fiction film co-produced, co-edited, written, and directed by James Cameron. It features an ensemble cast including Sam Worthington, Zoe Saldana, Stephen Lang, Michelle Rodriguez, and Sigourney Weaver.[6] Distributed by 20th Century Fox,[a][b] the first installment in the Avatar film series, it is set in the mid-22nd century, when humans are colonizing Pandora, a lush habitable moon of a gas giant in the Alpha Centauri star system, in order to mine the valuable unobtanium,[c] a room-temperature superconductor mineral. The expansion of the mining colony threatens the continued existence of a local tribe of Na'vi, a humanoid species indigenous to Pandora. The title of the film refers to a genetically engineered Na'vi body operated from the brain of a remotely located human that is used to interact with the natives of Pandora called an Avatar.",
+    "type": "movie"
+  },
+  {
+    "id": 48,
+    "title": "The Ice Road",
+    "year": 2021,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/The Ice Road-thumbnail.jpg",
+    "poster": "/covers/posters/The Ice Road-poster.jpg",
+    "description": "The Ice Road is a 2021 American action thriller film written and directed by Jonathan Hensleigh. The film stars Liam Neeson, Laurence Fishburne, Benjamin Walker, Amber Midthunder, Marcus Thomas, Holt McCallany, Martin Sensmeier, Matt McCoy, and Matt Salinger. The movie is influenced by 1953 film The Wages of Fear by Henri-Georges Clouzot who based his film on the novel of the same name written by Georges Arnaud",
+    "type": "movie"
+  },
+  {
+    "id": 49,
+    "title": "Interstellar ",
+    "year": 2014,
+    "genre": "Science",
+    "thumbnail": "/covers/thumbnails/Interstellar-thumbnail.jpg",
+    "poster": "/covers/posters/Interstellar-poster.jpg",
+    "description": "Interstellar is a 2014 epic science fiction film directed by Christopher Nolan, who co-wrote the screenplay with his brother Jonathan Nolan. It features an ensemble cast led by Matthew McConaughey, Anne Hathaway, Jessica Chastain, Bill Irwin, Ellen Burstyn and Michael Caine. Set in a dystopian future where Earth is suffering from catastrophic blight and famine, the film follows a group of astronauts who travel through a wormhole near Saturn in search of a new home for mankind.",
+    "type": "movie"
+  },
+  {
+    "id": 50,
+    "title": "The Beekeeper",
+    "year": 2024,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/The Beekeeper-thumbnail.jpg",
+    "poster": "/covers/posters/The Beekeeper-poster.jpg",
+    "description": "The Beekeeper is a 2024 action thriller film produced and directed by David Ayer and written by Kurt Wimmer. It stars Jason Statham, Emmy Raver-Lampman, Josh Hutcherson, Bobby Naderi, Minnie Driver, Phylicia Rashad, and Jeremy Irons. The film follows a retired government assassin who sets out for revenge after his kind-hearted landlady falls victim to a phishing scam.",
+    "type": "movie"
+  },
+  {
+    "id": 0,
     "title": "Inception",
     "year": 2010,
     "genre": "Action",
     "thumbnail": "/covers/thumbnails/",
     "poster": "/covers/posters/",
-    "description": "something"
-  },
-  {
-    "id": 2,
-    "title": "Inception",
-    "year": 2010,
-    "genre": "Action",
-    "thumbnail": "/covers/thumbnails/",
-    "poster": "/covers/posters/",
-    "description": "something"
-  },
-  {
-    "id": 2,
-    "title": "Inception",
-    "year": 2010,
-    "genre": "Action",
-    "thumbnail": "/covers/thumbnails/",
-    "poster": "/covers/posters/",
-    "description": "something"
-  },
-  {
-    "id": 2,
-    "title": "Inception",
-    "year": 2010,
-    "genre": "Action",
-    "thumbnail": "/covers/thumbnails/",
-    "poster": "/covers/posters/",
-    "description": "something"
-  },
-  {
-    "id": 2,
-    "title": "Inception",
-    "year": 2010,
-    "genre": "Action",
-    "thumbnail": "/covers/thumbnails/",
-    "poster": "/covers/posters/",
-    "description": "something"
-  },
-  {
-    "id": 2,
-    "title": "Inception",
-    "year": 2010,
-    "genre": "Action",
-    "thumbnail": "/covers/thumbnails/",
-    "poster": "/covers/posters/",
-    "description": "something"
-  },
-  {
-    "id": 2,
-    "title": "Inception",
-    "year": 2010,
-    "genre": "Action",
-    "thumbnail": "/covers/thumbnails/",
-    "poster": "/covers/posters/",
-    "description": "something"
-  },
-  {
-    "id": 2,
-    "title": "Inception",
-    "year": 2010,
-    "genre": "Action",
-    "thumbnail": "/covers/thumbnails/",
-    "poster": "/covers/posters/",
-    "description": "something"
-  },
-  {
-    "id": 2,
-    "title": "Inception",
-    "year": 2010,
-    "genre": "Action",
-    "thumbnail": "/covers/thumbnails/",
-    "poster": "/covers/posters/",
-    "description": "something"
-  },
-  {
-    "id": 2,
-    "title": "Inception",
-    "year": 2010,
-    "genre": "Action",
-    "thumbnail": "/covers/thumbnails/",
-    "poster": "/covers/posters/",
-    "description": "something"
-  },
-  {
-    "id": 2,
-    "title": "Inception",
-    "year": 2010,
-    "genre": "Action",
-    "thumbnail": "/covers/thumbnails/",
-    "poster": "/covers/posters/",
-    "description": "something"
-  },
-  {
-    "id": 2,
-    "title": "Inception",
-    "year": 2010,
-    "genre": "Action",
-    "thumbnail": "/covers/thumbnails/",
-    "poster": "/covers/posters/",
-    "description": "something"
-  },
-  {
-    "id": 2,
-    "title": "Inception",
-    "year": 2010,
-    "genre": "Action",
-    "thumbnail": "/covers/thumbnails/",
-    "poster": "/covers/posters/",
-    "description": "something"
-  },
-  {
-    "id": 2,
-    "title": "Inception",
-    "year": 2010,
-    "genre": "Action",
-    "thumbnail": "/covers/thumbnails/",
-    "poster": "/covers/posters/",
-    "description": "something"
-  },
-  {
-    "id": 2,
-    "title": "Inception",
-    "year": 2010,
-    "genre": "Action",
-    "thumbnail": "/covers/thumbnails/",
-    "poster": "/covers/posters/",
-    "description": "something"
-  },
-  {
-    "id": 2,
-    "title": "Inception",
-    "year": 2010,
-    "genre": "Action",
-    "thumbnail": "/covers/thumbnails/",
-    "poster": "/covers/posters/",
-    "description": "something"
-  },
-  {
-    "id": 2,
-    "title": "Inception",
-    "year": 2010,
-    "genre": "Action",
-    "thumbnail": "/covers/thumbnails/",
-    "poster": "/covers/posters/",
-    "description": "something"
-  },
-  {
-    "id": 2,
-    "title": "Inception",
-    "year": 2010,
-    "genre": "Action",
-    "thumbnail": "/covers/thumbnails/",
-    "poster": "/covers/posters/",
-    "description": "something"
-  },
-  {
-    "id": 2,
-    "title": "Inception",
-    "year": 2010,
-    "genre": "Action",
-    "thumbnail": "/covers/thumbnails/",
-    "poster": "/covers/posters/",
-    "description": "something"
-  },
-  {
-    "id": 2,
-    "title": "Inception",
-    "year": 2010,
-    "genre": "Action",
-    "thumbnail": "/covers/thumbnails/",
-    "poster": "/covers/posters/",
-    "description": "something"
-  },
-  {
-    "id": 2,
-    "title": "Inception",
-    "year": 2010,
-    "genre": "Action",
-    "thumbnail": "/covers/thumbnails/",
-    "poster": "/covers/posters/",
-    "description": "something"
-  },
-  {
-    "id": 2,
-    "title": "Inception",
-    "year": 2010,
-    "genre": "Action",
-    "thumbnail": "/covers/thumbnails/",
-    "poster": "/covers/posters/",
-    "description": "something"
-  },
-  {
-    "id": 2,
-    "title": "Inception",
-    "year": 2010,
-    "genre": "Action",
-    "thumbnail": "/covers/thumbnails/",
-    "poster": "/covers/posters/",
-    "description": "something"
-  },
-  {
-    "id": 2,
-    "title": "Inception",
-    "year": 2010,
-    "genre": "Action",
-    "thumbnail": "/covers/thumbnails/",
-    "poster": "/covers/posters/",
-    "description": "something"
-  },
-  {
-    "id": 2,
-    "title": "Inception",
-    "year": 2010,
-    "genre": "Action",
-    "thumbnail": "/covers/thumbnails/",
-    "poster": "/covers/posters/",
-    "description": "something"
-  },
-  {
-    "id": 2,
-    "title": "Inception",
-    "year": 2010,
-    "genre": "Action",
-    "thumbnail": "/covers/thumbnails/",
-    "poster": "/covers/posters/",
-    "description": "something"
-  },
-  {
-    "id": 2,
-    "title": "Inception",
-    "year": 2010,
-    "genre": "Action",
-    "thumbnail": "/covers/thumbnails/",
-    "poster": "/covers/posters/",
-    "description": "something"
-  },
-  {
-    "id": 2,
-    "title": "Inception",
-    "year": 2010,
-    "genre": "Action",
-    "thumbnail": "/covers/thumbnails/",
-    "poster": "/covers/posters/",
-    "description": "something"
-  },
-  {
-    "id": 2,
-    "title": "Inception",
-    "year": 2010,
-    "genre": "Action",
-    "thumbnail": "/covers/thumbnails/",
-    "poster": "/covers/posters/",
-    "description": "something"
-  },
-  {
-    "id": 2,
-    "title": "Inception",
-    "year": 2010,
-    "genre": "Action",
-    "thumbnail": "/covers/thumbnails/",
-    "poster": "/covers/posters/",
-    "description": "something"
-  },
-  {
-    "id": 2,
-    "title": "Inception",
-    "year": 2010,
-    "genre": "Action",
-    "thumbnail": "/covers/thumbnails/",
-    "poster": "/covers/posters/",
-    "description": "something"
-  },
-  {
-    "id": 2,
-    "title": "Inception",
-    "year": 2010,
-    "genre": "Action",
-    "thumbnail": "/covers/thumbnails/",
-    "poster": "/covers/posters/",
-    "description": "something"
-  },
-  {
-    "id": 2,
-    "title": "Inception",
-    "year": 2010,
-    "genre": "Action",
-    "thumbnail": "/covers/thumbnails/",
-    "poster": "/covers/posters/",
-    "description": "something"
-  },
-  {
-    "id": 2,
-    "title": "Inception",
-    "year": 2010,
-    "genre": "Action",
-    "thumbnail": "/covers/thumbnails/",
-    "poster": "/covers/posters/",
-    "description": "something"
-  },
-  {
-    "id": 2,
-    "title": "Inception",
-    "year": 2010,
-    "genre": "Action",
-    "thumbnail": "/covers/thumbnails/",
-    "poster": "/covers/posters/",
-    "description": "something"
-  },
-  {
-    "id": 2,
-    "title": "Inception",
-    "year": 2010,
-    "genre": "Action",
-    "thumbnail": "/covers/thumbnails/",
-    "poster": "/covers/posters/",
-    "description": "something"
-  },
-  {
-    "id": 2,
-    "title": "Inception",
-    "year": 2010,
-    "genre": "Action",
-    "thumbnail": "/covers/thumbnails/",
-    "poster": "/covers/posters/",
-    "description": "something"
-  },
-  {
-    "id": 2,
-    "title": "Inception",
-    "year": 2010,
-    "genre": "Action",
-    "thumbnail": "/covers/thumbnails/",
-    "poster": "/covers/posters/",
-    "description": "something"
-  },
-  {
-    "id": 2,
-    "title": "Inception",
-    "year": 2010,
-    "genre": "Action",
-    "thumbnail": "/covers/thumbnails/",
-    "poster": "/covers/posters/",
-    "description": "something"
-  },
-  {
-    "id": 2,
-    "title": "Inception",
-    "year": 2010,
-    "genre": "Action",
-    "thumbnail": "/covers/thumbnails/",
-    "poster": "/covers/posters/",
-    "description": "something"
-  },
-  {
-    "id": 2,
-    "title": "Inception",
-    "year": 2010,
-    "genre": "Action",
-    "thumbnail": "/covers/thumbnails/",
-    "poster": "/covers/posters/",
-    "description": "something"
-  },
-  {
-    "id": 2,
-    "title": "Inception",
-    "year": 2010,
-    "genre": "Action",
-    "thumbnail": "/covers/thumbnails/",
-    "poster": "/covers/posters/",
-    "description": "something"
-  },
-  {
-    "id": 2,
-    "title": "Inception",
-    "year": 2010,
-    "genre": "Action",
-    "thumbnail": "/covers/thumbnails/",
-    "poster": "/covers/posters/",
-    "description": "something"
-  },
-  {
-    "id": 2,
-    "title": "Inception",
-    "year": 2010,
-    "genre": "Action",
-    "thumbnail": "/covers/thumbnails/",
-    "poster": "/covers/posters/",
-    "description": "something"
-  },
-  {
-    "id": 2,
-    "title": "Inception",
-    "year": 2010,
-    "genre": "Action",
-    "thumbnail": "/covers/thumbnails/",
-    "poster": "/covers/posters/",
-    "description": "something"
-  },
-  {
-    "id": 2,
-    "title": "Inception",
-    "year": 2010,
-    "genre": "Action",
-    "thumbnail": "/covers/thumbnails/",
-    "poster": "/covers/posters/",
-    "description": "something"
-  },
-  {
-    "id": 2,
-    "title": "Inception",
-    "year": 2010,
-    "genre": "Action",
-    "thumbnail": "/covers/thumbnails/",
-    "poster": "/covers/posters/",
-    "description": "something"
-  },
-  {
-    "id": 2,
-    "title": "Inception",
-    "year": 2010,
-    "genre": "Action",
-    "thumbnail": "/covers/thumbnails/",
-    "poster": "/covers/posters/",
-    "description": "something"
-  },
-  {
-    "id": 2,
-    "title": "Inception",
-    "year": 2010,
-    "genre": "Action",
-    "thumbnail": "/covers/thumbnails/",
-    "poster": "/covers/posters/",
-    "description": "something"
+    "description": "something",
+    "type": "movie"
   }
 ]
