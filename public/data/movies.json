@@ -1,72 +1,461 @@
 [
   {
     "id": 1,
-    "title": "The Matrix",
-    "year": 1999,
-    "genre": "Sci-Fi",
-    "cover": "https://via.placeholder.com/300x400"
+    "title": "All Quiet on the Western Front",
+    "year": 2022,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/All Quiet on the Western Front 2022-thumbnail.jpg",
+    "poster": "/covers/posters/All Quiet on the Western Front 2022-poster.jpg",
+    "description": "All Quiet on the Western Front (German: Im Westen nichts Neues, lit. 'Nothing New in the West') is a 2022 German epic anti-war film based on the 1929 novel by Erich Maria Remarque. It is the third film adaptation of the book, after the 1930 and 1979 versions. Co-written, directed and co-produced by Edward Berger, it stars Felix Kammerer, Albrecht Schuch, Daniel Brühl, Sebastian Hülk, Aaron Hilmer, Edin Hasanovic, and Devid Striesow."
   },
   {
     "id": 2,
     "title": "Inception",
     "year": 2010,
     "genre": "Action",
-    "cover": "https://via.placeholder.com/300x400"
+    "thumbnail": "/covers/thumbnails/Inception-2010-thumbnail.jpg",
+    "poster": "/covers/posters/Inception-2010-poster.jpg",
+    "description": "Inception is a 2010 science fiction action heist film written and directed by Christopher Nolan, who also produced it with Emma Thomas, his wife. The film stars Leonardo DiCaprio as a professional thief who steals information by infiltrating the subconscious of his targets. He is offered a chance to have his criminal history erased as payment for the implantation of another person's idea into a target's subconscious. The ensemble cast includes Ken Watanabe, Joseph Gordon-Levitt, Marion Cotillard, Elliot Page,[a] Tom Hardy, Cillian Murphy, Tom Berenger, Dileep Rao, and Michael Caine."
   },
   {
-    "id": 3,
-    "title": "Parasite",
-    "year": 2019,
-    "genre": "Thriller",
-    "cover": "https://via.placeholder.com/300x400"
-  },
-  {
-    "id": 4,
-    "title": "Interstellar",
-    "year": 2014,
-    "genre": "Sci-Fi",
-    "cover": "https://via.placeholder.com/300x400"
-  },
-  {
-    "id": 5,
-    "title": "Joker",
-    "year": 2019,
-    "genre": "Drama",
-    "cover": "https://via.placeholder.com/300x400"
-  },
-  {
-    "id": 6,
-    "title": "Avengers: Endgame",
-    "year": 2019,
+    "id": 2,
+    "title": "Inception",
+    "year": 2010,
     "genre": "Action",
-    "cover": "https://via.placeholder.com/300x400"
+    "thumbnail": "/covers/thumbnails/",
+    "poster": "/covers/posters/",
+    "description": "something"
   },
   {
-    "id": 7,
-    "title": "The Dark Knight",
-    "year": 2008,
+    "id": 2,
+    "title": "Inception",
+    "year": 2010,
     "genre": "Action",
-    "cover": "https://via.placeholder.com/300x400"
+    "thumbnail": "/covers/thumbnails/",
+    "poster": "/covers/posters/",
+    "description": "something"
   },
   {
-    "id": 8,
-    "title": "Forrest Gump",
-    "year": 1994,
-    "genre": "Drama",
-    "cover": "https://via.placeholder.com/300x400"
-  },
-  {
-    "id": 9,
-    "title": "Gladiator",
-    "year": 2000,
+    "id": 2,
+    "title": "Inception",
+    "year": 2010,
     "genre": "Action",
-    "cover": "https://via.placeholder.com/300x400"
+    "thumbnail": "/covers/thumbnails/",
+    "poster": "/covers/posters/",
+    "description": "something"
   },
   {
-    "id": 10,
-    "title": "Spirited Away",
-    "year": 2001,
-    "genre": "Animation",
-    "cover": "https://via.placeholder.com/300x400"
+    "id": 2,
+    "title": "Inception",
+    "year": 2010,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/",
+    "poster": "/covers/posters/",
+    "description": "something"
+  },
+  {
+    "id": 2,
+    "title": "Inception",
+    "year": 2010,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/",
+    "poster": "/covers/posters/",
+    "description": "something"
+  },
+  {
+    "id": 2,
+    "title": "Inception",
+    "year": 2010,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/",
+    "poster": "/covers/posters/",
+    "description": "something"
+  },
+  {
+    "id": 2,
+    "title": "Inception",
+    "year": 2010,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/",
+    "poster": "/covers/posters/",
+    "description": "something"
+  },
+  {
+    "id": 2,
+    "title": "Inception",
+    "year": 2010,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/",
+    "poster": "/covers/posters/",
+    "description": "something"
+  },
+  {
+    "id": 2,
+    "title": "Inception",
+    "year": 2010,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/",
+    "poster": "/covers/posters/",
+    "description": "something"
+  },
+  {
+    "id": 2,
+    "title": "Inception",
+    "year": 2010,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/",
+    "poster": "/covers/posters/",
+    "description": "something"
+  },
+  {
+    "id": 2,
+    "title": "Inception",
+    "year": 2010,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/",
+    "poster": "/covers/posters/",
+    "description": "something"
+  },
+  {
+    "id": 2,
+    "title": "Inception",
+    "year": 2010,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/",
+    "poster": "/covers/posters/",
+    "description": "something"
+  },
+  {
+    "id": 2,
+    "title": "Inception",
+    "year": 2010,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/",
+    "poster": "/covers/posters/",
+    "description": "something"
+  },
+  {
+    "id": 2,
+    "title": "Inception",
+    "year": 2010,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/",
+    "poster": "/covers/posters/",
+    "description": "something"
+  },
+  {
+    "id": 2,
+    "title": "Inception",
+    "year": 2010,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/",
+    "poster": "/covers/posters/",
+    "description": "something"
+  },
+  {
+    "id": 2,
+    "title": "Inception",
+    "year": 2010,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/",
+    "poster": "/covers/posters/",
+    "description": "something"
+  },
+  {
+    "id": 2,
+    "title": "Inception",
+    "year": 2010,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/",
+    "poster": "/covers/posters/",
+    "description": "something"
+  },
+  {
+    "id": 2,
+    "title": "Inception",
+    "year": 2010,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/",
+    "poster": "/covers/posters/",
+    "description": "something"
+  },
+  {
+    "id": 2,
+    "title": "Inception",
+    "year": 2010,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/",
+    "poster": "/covers/posters/",
+    "description": "something"
+  },
+  {
+    "id": 2,
+    "title": "Inception",
+    "year": 2010,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/",
+    "poster": "/covers/posters/",
+    "description": "something"
+  },
+  {
+    "id": 2,
+    "title": "Inception",
+    "year": 2010,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/",
+    "poster": "/covers/posters/",
+    "description": "something"
+  },
+  {
+    "id": 2,
+    "title": "Inception",
+    "year": 2010,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/",
+    "poster": "/covers/posters/",
+    "description": "something"
+  },
+  {
+    "id": 2,
+    "title": "Inception",
+    "year": 2010,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/",
+    "poster": "/covers/posters/",
+    "description": "something"
+  },
+  {
+    "id": 2,
+    "title": "Inception",
+    "year": 2010,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/",
+    "poster": "/covers/posters/",
+    "description": "something"
+  },
+  {
+    "id": 2,
+    "title": "Inception",
+    "year": 2010,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/",
+    "poster": "/covers/posters/",
+    "description": "something"
+  },
+  {
+    "id": 2,
+    "title": "Inception",
+    "year": 2010,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/",
+    "poster": "/covers/posters/",
+    "description": "something"
+  },
+  {
+    "id": 2,
+    "title": "Inception",
+    "year": 2010,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/",
+    "poster": "/covers/posters/",
+    "description": "something"
+  },
+  {
+    "id": 2,
+    "title": "Inception",
+    "year": 2010,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/",
+    "poster": "/covers/posters/",
+    "description": "something"
+  },
+  {
+    "id": 2,
+    "title": "Inception",
+    "year": 2010,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/",
+    "poster": "/covers/posters/",
+    "description": "something"
+  },
+  {
+    "id": 2,
+    "title": "Inception",
+    "year": 2010,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/",
+    "poster": "/covers/posters/",
+    "description": "something"
+  },
+  {
+    "id": 2,
+    "title": "Inception",
+    "year": 2010,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/",
+    "poster": "/covers/posters/",
+    "description": "something"
+  },
+  {
+    "id": 2,
+    "title": "Inception",
+    "year": 2010,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/",
+    "poster": "/covers/posters/",
+    "description": "something"
+  },
+  {
+    "id": 2,
+    "title": "Inception",
+    "year": 2010,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/",
+    "poster": "/covers/posters/",
+    "description": "something"
+  },
+  {
+    "id": 2,
+    "title": "Inception",
+    "year": 2010,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/",
+    "poster": "/covers/posters/",
+    "description": "something"
+  },
+  {
+    "id": 2,
+    "title": "Inception",
+    "year": 2010,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/",
+    "poster": "/covers/posters/",
+    "description": "something"
+  },
+  {
+    "id": 2,
+    "title": "Inception",
+    "year": 2010,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/",
+    "poster": "/covers/posters/",
+    "description": "something"
+  },
+  {
+    "id": 2,
+    "title": "Inception",
+    "year": 2010,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/",
+    "poster": "/covers/posters/",
+    "description": "something"
+  },
+  {
+    "id": 2,
+    "title": "Inception",
+    "year": 2010,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/",
+    "poster": "/covers/posters/",
+    "description": "something"
+  },
+  {
+    "id": 2,
+    "title": "Inception",
+    "year": 2010,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/",
+    "poster": "/covers/posters/",
+    "description": "something"
+  },
+  {
+    "id": 2,
+    "title": "Inception",
+    "year": 2010,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/",
+    "poster": "/covers/posters/",
+    "description": "something"
+  },
+  {
+    "id": 2,
+    "title": "Inception",
+    "year": 2010,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/",
+    "poster": "/covers/posters/",
+    "description": "something"
+  },
+  {
+    "id": 2,
+    "title": "Inception",
+    "year": 2010,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/",
+    "poster": "/covers/posters/",
+    "description": "something"
+  },
+  {
+    "id": 2,
+    "title": "Inception",
+    "year": 2010,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/",
+    "poster": "/covers/posters/",
+    "description": "something"
+  },
+  {
+    "id": 2,
+    "title": "Inception",
+    "year": 2010,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/",
+    "poster": "/covers/posters/",
+    "description": "something"
+  },
+  {
+    "id": 2,
+    "title": "Inception",
+    "year": 2010,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/",
+    "poster": "/covers/posters/",
+    "description": "something"
+  },
+  {
+    "id": 2,
+    "title": "Inception",
+    "year": 2010,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/",
+    "poster": "/covers/posters/",
+    "description": "something"
+  },
+  {
+    "id": 2,
+    "title": "Inception",
+    "year": 2010,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/",
+    "poster": "/covers/posters/",
+    "description": "something"
+  },
+  {
+    "id": 2,
+    "title": "Inception",
+    "year": 2010,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/",
+    "poster": "/covers/posters/",
+    "description": "something"
+  },
+  {
+    "id": 2,
+    "title": "Inception",
+    "year": 2010,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/",
+    "poster": "/covers/posters/",
+    "description": "something"
   }
 ]

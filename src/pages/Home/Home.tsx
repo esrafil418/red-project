@@ -25,20 +25,34 @@ const Home: React.FC = () => {
     <div className="bg-gray-900 min-h-screen">
       <Navbar />
 
-      <main className="p-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-        {loading ? (
-          <p className="text-white text-center col-span-3">Loading movies...</p>
-        ) : (
-          movies.map((movie) => (
-            <MovieCard
-              key={movie.id}
-              title={movie.title}
-              year={movie.year}
-              genre={movie.genre}
-              cover={movie.cover}
-            />
-          ))
-        )}
+      {/* Wrapper div to center content and limit max width */}
+      <main className="p-8">
+        <div className="mx-auto max-w-[1400px]">
+          <div
+            className="grid gap-6
+                     grid-cols-2
+                     sm:grid-cols-3
+                     md:grid-cols-4
+                     lg:grid-cols-5"
+          >
+            {loading ? (
+              <p className="text-white text-center col-span-full">
+                Loading movies...
+              </p>
+            ) : (
+              movies.map((movie) => (
+                <MovieCard
+                  key={movie.id}
+                  id={movie.id}
+                  title={movie.title}
+                  year={movie.year}
+                  genre={movie.genre}
+                  thumbnail={movie.thumbnail}
+                />
+              ))
+            )}
+          </div>
+        </div>
       </main>
 
       <Footer />

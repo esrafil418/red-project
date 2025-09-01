@@ -1,13 +1,15 @@
 // !This file contains API requests related to movies
 
 // !Movie type for our components
-export type Movie = {
+export interface Movie {
   id: number;
   title: string;
   year: number;
   genre: string;
-  cover: string;
-};
+  thumbnail: string;
+  poster: string;
+  description: string;
+}
 
 // !Fetch movies from local JSON (or replace URL with real API)
 export const fetchMovies = async (): Promise<Movie[]> => {
