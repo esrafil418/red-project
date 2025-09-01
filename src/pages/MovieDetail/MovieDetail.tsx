@@ -31,7 +31,7 @@ const MovieDetail: React.FC = () => {
         <img
           src={movie.poster}
           alt={movie.title}
-          className="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 z-0"
+          className="absolute inset-0 w-full h-full object-cover blur-2xl z-0"
         />
         {/* Dark overlay for contrast */}
         <div className="absolute inset-0 bg-black/70 z-10" />
