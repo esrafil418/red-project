@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "title": "The Matrix",
+    "year": 1999,
+    "genre": "Sci-Fi",
+    "cover": "https://via.placeholder.com/300x400"
+  },
+  {
+    "id": 2,
+    "title": "Inception",
+    "year": 2010,
+    "genre": "Action",
+    "cover": "https://via.placeholder.com/300x400"
+  },
+  {
+    "id": 3,
+    "title": "Parasite",
+    "year": 2019,
+    "genre": "Thriller",
+    "cover": "https://via.placeholder.com/300x400"
+  },
+  {
+    "id": 4,
+    "title": "Interstellar",
+    "year": 2014,
+    "genre": "Sci-Fi",
+    "cover": "https://via.placeholder.com/300x400"
+  },
+  {
+    "id": 5,
+    "title": "Joker",
+    "year": 2019,
+    "genre": "Drama",
+    "cover": "https://via.placeholder.com/300x400"
+  },
+  {
+    "id": 6,
+    "title": "Avengers: Endgame",
+    "year": 2019,
+    "genre": "Action",
+    "cover": "https://via.placeholder.com/300x400"
+  },
+  {
+    "id": 7,
+    "title": "The Dark Knight",
+    "year": 2008,
+    "genre": "Action",
+    "cover": "https://via.placeholder.com/300x400"
+  },
+  {
+    "id": 8,
+    "title": "Forrest Gump",
+    "year": 1994,
+    "genre": "Drama",
+    "cover": "https://via.placeholder.com/300x400"
+  },
+  {
+    "id": 9,
+    "title": "Gladiator",
+    "year": 2000,
+    "genre": "Action",
+    "cover": "https://via.placeholder.com/300x400"
+  },
+  {
+    "id": 10,
+    "title": "Spirited Away",
+    "year": 2001,
+    "genre": "Animation",
+    "cover": "https://via.placeholder.com/300x400"
+  }
+]
