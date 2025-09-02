@@ -10,6 +10,12 @@ const Home: React.FC = () => {
   // State to store fetched movies
   const [movies, setMovies] = useState<Movie[]>([]);
   const [loading, setLoading] = useState(true);
+  const [currentPage, setCurrentPage] = useState(1);
+  const moviesPerPage = 10;
+
+  // !Pagination
+  const indexOfLastMovie = currentPage * moviesPerPage;
+  const indexOfFirstMovie = indexOfLastMovie - moviesPerPage;
 
   // Fetch movies on component mount
   useEffect(() => {
@@ -21,6 +27,9 @@ const Home: React.FC = () => {
     getMovies();
   }, []);
 
+  const currentMovies = movies.slice(indexOfFirstMovie, indexOfLastMovie);
+  const totalPages = Math.ceil(movies.length / moviesPerPage);
+
   return (
     <div className="bg-gray-900 min-h-screen">
       <Navbar />
@@ -31,8 +40,8 @@ const Home: React.FC = () => {
           <div
             className="grid gap-6
                      grid-cols-2
-                     sm:grid-cols-3
-                     md:grid-cols-4
+                     sm:grid-cols-2
+                     md:grid-cols-5
                      lg:grid-cols-5"
           >
             {loading ? (
@@ -40,7 +49,7 @@ const Home: React.FC = () => {
                 Loading movies...
               </p>
             ) : (
-              movies.map((movie) => (
+              currentMovies.map((movie) => (
                 <MovieCard
                   key={movie.id}
                   id={movie.id}
@@ -52,6 +61,21 @@ const Home: React.FC = () => {
               ))
             )}
           </div>
+        </div>
+        <div className="flex justify-center space-x-2 mt-6">
+          {[...Array(totalPages)].map((_, i) => (
+            <button
+              key={i}
+              onClick={() => setCurrentPage(i + 1)}
+              className={`px-4 py-2 rounded cursor-pointer ${
+                currentPage === i + 1
+                  ? "bg-red-500 text-white"
+                  : "bg-gray-700 text-gray-300"
+              }`}
+            >
+              {i + 1}
+            </button>
+          ))}
         </div>
       </main>
 
