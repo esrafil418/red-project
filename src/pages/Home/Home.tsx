@@ -6,14 +6,18 @@ import MovieCard from "../../components/MovieCard/MovieCard";
 import { fetchMovies } from "../../services/movieService";
 import type { Movie } from "../../services/movieService"; // type-only import
 
+type ContentFilter = "all" | "movie" | "series";
+
 const Home: React.FC = () => {
   // State to store fetched movies
   const [movies, setMovies] = useState<Movie[]>([]);
   const [loading, setLoading] = useState(true);
   const [currentPage, setCurrentPage] = useState(1);
   const moviesPerPage = 10;
+  // !Filter
+  const [filter, setFilter] = useState<ContentFilter>("all");
 
-  // Fetch movies on component mount
+  // !Fetch movies on component mount
   useEffect(() => {
     const getMovies = async () => {
       const movieData = await fetchMovies();
@@ -23,15 +27,40 @@ const Home: React.FC = () => {
     getMovies();
   }, []);
 
+  const filteredMovies =
+    filter === "all" ? movies : movies.filter((m) => m.type === filter);
+
   // !Pagination
   const indexOfLastMovie = currentPage * moviesPerPage;
   const indexOfFirstMovie = indexOfLastMovie - moviesPerPage;
-  const currentMovies = movies.slice(indexOfFirstMovie, indexOfLastMovie);
-  const totalPages = Math.ceil(movies.length / moviesPerPage);
+  const currentMovies = filteredMovies.slice(
+    indexOfFirstMovie,
+    indexOfLastMovie
+  );
+  const totalPages = Math.ceil(filteredMovies.length / moviesPerPage);
 
   return (
     <div className="bg-gray-900 min-h-screen">
       <Navbar />
+
+      {/* Filter section */}
+      <div className="mb-4 flex items-center justify-center">
+        <div className="flex gap-2">
+          {(["all", "movie", "series"] as const).map((f) => (
+            <button
+              key={f}
+              onClick={() => setFilter(f)}
+              className={`px-3 py-1 rounded text-sm transition ${
+                filter === f
+                  ? "bg-red-600 text-white"
+                  : "bg-gray-800 text-gray-300 hover:bg-gray-700"
+              }`}
+            >
+              {f === "all" ? "All" : f === "movie" ? "Movies" : "Series"}
+            </button>
+          ))}
+        </div>
+      </div>
 
       {/* Wrapper div to center content and limit max width */}
       <main className="p-8">
