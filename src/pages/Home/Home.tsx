@@ -18,6 +18,12 @@ const Home: React.FC = () => {
   const [filter, setFilter] = useState<ContentFilter>("all");
   // ?New to Old Filter
   const [sortOrder, setSortOrder] = useState<"newest" | "oldest">("newest");
+  // !Genre Filter
+  // ?State for selected genre filter
+  const [genreFilter, setGenreFilter] = useState<string>("all");
+  const genres = Array.from(new Set(movies.map((m) => m.genre)));
+  // ?State for genre dropdown open/close
+  const [genreOpen, setGenreOpen] = useState(false);
 
   // !Fetch movies on component mount
   useEffect(() => {
@@ -30,8 +36,9 @@ const Home: React.FC = () => {
   }, []);
 
   // !Filter
-  const filteredMovies =
-    filter === "all" ? movies : movies.filter((m) => m.type === filter);
+  const filteredMovies = movies
+    .filter((m) => filter === "all" || m.type === filter)
+    .filter((m) => genreFilter === "all" || m.genre === genreFilter);
   const sortedMovies = [...filteredMovies].sort((a, b) => {
     if (sortOrder === "newest") {
       return b.year - a.year;
@@ -47,6 +54,7 @@ const Home: React.FC = () => {
   const currentMovies = sortedMovies.slice(indexOfFirstMovie, indexOfLastMovie);
   const totalPages = Math.ceil(sortedMovies.length / moviesPerPage);
 
+  // ! return section -----------------------------------
   return (
     <div className="bg-gray-900 min-h-screen">
       <Navbar />
@@ -68,7 +76,6 @@ const Home: React.FC = () => {
             </button>
           ))}
         </div>
-
         {/* sorted section */}
         <div className="flex gap-2">
           <button
@@ -91,6 +98,44 @@ const Home: React.FC = () => {
           >
             Oldest
           </button>
+        </div>
+        {/* Sort By Genre */}
+        <div className="relative inline-block text-left my-4">
+          <button
+            onClick={() => setGenreOpen((prev) => !prev)}
+            className="px-4 py-2 bg-gray-800 text-white rounded-md shadow hover:bg-gray-700 focus:outline-none"
+          >
+            {genreFilter === "all" ? "All Genres" : genreFilter}
+          </button>
+
+          {genreOpen && (
+            <div className="absolute mt-2 w-56 rounded-md shadow-lg bg-gray-900 ring-1 ring-black ring-opacity-5 z-50">
+              <div className="py-1">
+                <button
+                  onClick={() => {
+                    setGenreFilter("all");
+                    setGenreOpen(false);
+                  }}
+                  className="block w-full text-left px-4 py-2 text-sm text-gray-200 hover:bg-gray-700"
+                >
+                  All Genres
+                </button>
+
+                {genres.map((g) => (
+                  <button
+                    key={g}
+                    onClick={() => {
+                      setGenreFilter(g);
+                      setGenreOpen(false);
+                    }}
+                    className="block w-full text-left px-4 py-2 text-sm text-gray-200 hover:bg-gray-700"
+                  >
+                    {g}
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
       </div>
 
