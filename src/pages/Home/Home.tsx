@@ -16,6 +16,8 @@ const Home: React.FC = () => {
   const moviesPerPage = 10;
   // !Filter
   const [filter, setFilter] = useState<ContentFilter>("all");
+  // ?New to Old Filter
+  const [sortOrder, setSortOrder] = useState<"newest" | "oldest">("newest");
 
   // !Fetch movies on component mount
   useEffect(() => {
@@ -27,24 +29,30 @@ const Home: React.FC = () => {
     getMovies();
   }, []);
 
+  // !Filter
   const filteredMovies =
     filter === "all" ? movies : movies.filter((m) => m.type === filter);
+  const sortedMovies = [...filteredMovies].sort((a, b) => {
+    if (sortOrder === "newest") {
+      return b.year - a.year;
+    } else {
+      return a.year - b.year;
+    }
+  });
 
   // !Pagination
   const indexOfLastMovie = currentPage * moviesPerPage;
   const indexOfFirstMovie = indexOfLastMovie - moviesPerPage;
-  const currentMovies = filteredMovies.slice(
-    indexOfFirstMovie,
-    indexOfLastMovie
-  );
-  const totalPages = Math.ceil(filteredMovies.length / moviesPerPage);
+
+  const currentMovies = sortedMovies.slice(indexOfFirstMovie, indexOfLastMovie);
+  const totalPages = Math.ceil(sortedMovies.length / moviesPerPage);
 
   return (
     <div className="bg-gray-900 min-h-screen">
       <Navbar />
 
-      {/* Filter section */}
-      <div className="mb-4 flex items-center justify-center">
+      {/* Filter + Sort section */}
+      <div className="mb-4 flex items-center justify-center gap-6">
         <div className="flex gap-2">
           {(["all", "movie", "series"] as const).map((f) => (
             <button
@@ -59,6 +67,30 @@ const Home: React.FC = () => {
               {f === "all" ? "All" : f === "movie" ? "Movies" : "Series"}
             </button>
           ))}
+        </div>
+
+        {/* sorted section */}
+        <div className="flex gap-2">
+          <button
+            onClick={() => setSortOrder("newest")}
+            className={`px-3 py-1 rounded text-sm transition ${
+              sortOrder === "newest"
+                ? "bg-red-600 text-white"
+                : "bg-gray-800 text-gray-300 hover:bg-gray-700"
+            }`}
+          >
+            Newest
+          </button>
+          <button
+            onClick={() => setSortOrder("oldest")}
+            className={`px-3 py-1 rounded text-sm transition ${
+              sortOrder === "oldest"
+                ? "bg-red-600 text-white"
+                : "bg-gray-800 text-gray-300 hover:bg-gray-700"
+            }`}
+          >
+            Oldest
+          </button>
         </div>
       </div>
 

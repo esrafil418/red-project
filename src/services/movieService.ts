@@ -9,6 +9,7 @@ export interface Movie {
   thumbnail: string;
   poster: string;
   description: string;
+  type: "movie" | "series";
 }
 
 // !Fetch movies from local JSON (or replace URL with real API)
