@@ -4,28 +4,26 @@ import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 import MovieCard from "../../components/MovieCard/MovieCard";
 import { fetchMovies } from "../../services/movieService";
-import type { Movie } from "../../services/movieService"; // type-only import
+import type { Movie } from "../../services/movieService";
 
 type ContentFilter = "all" | "movie" | "series";
 
 const Home: React.FC = () => {
-  // State to store fetched movies
+  //! State
   const [movies, setMovies] = useState<Movie[]>([]);
   const [loading, setLoading] = useState(true);
   const [currentPage, setCurrentPage] = useState(1);
   const moviesPerPage = 10;
-  // !Filter
-  const [filter, setFilter] = useState<ContentFilter>("all");
-  // ?New to Old Filter
-  const [sortOrder, setSortOrder] = useState<"newest" | "oldest">("newest");
-  // !Genre Filter
-  // ?State for selected genre filter
-  const [genreFilter, setGenreFilter] = useState<string>("all");
-  const genres = Array.from(new Set(movies.map((m) => m.genre)));
-  // ?State for genre dropdown open/close
-  const [genreOpen, setGenreOpen] = useState(false);
 
-  // !Fetch movies on component mount
+  const [filter, setFilter] = useState<ContentFilter>("all");
+  const [sortOrder, setSortOrder] = useState<"newest" | "oldest">("newest");
+  const [genreFilter, setGenreFilter] = useState<string>("all");
+  const [genreOpen, setGenreOpen] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  const genres = Array.from(new Set(movies.map((m) => m.genre)));
+
+  //! Fetch movies
   useEffect(() => {
     const getMovies = async () => {
       const movieData = await fetchMovies();
@@ -35,38 +33,34 @@ const Home: React.FC = () => {
     getMovies();
   }, []);
 
-  // !Filter
+  //! Filter & Sort
   const filteredMovies = movies
     .filter((m) => filter === "all" || m.type === filter)
     .filter((m) => genreFilter === "all" || m.genre === genreFilter);
+
   const sortedMovies = [...filteredMovies].sort((a, b) => {
-    if (sortOrder === "newest") {
-      return b.year - a.year;
-    } else {
-      return a.year - b.year;
-    }
+    return sortOrder === "newest" ? b.year - a.year : a.year - b.year;
   });
 
-  // !Pagination
+  //! Pagination
   const indexOfLastMovie = currentPage * moviesPerPage;
   const indexOfFirstMovie = indexOfLastMovie - moviesPerPage;
-
   const currentMovies = sortedMovies.slice(indexOfFirstMovie, indexOfLastMovie);
   const totalPages = Math.ceil(sortedMovies.length / moviesPerPage);
 
-  // ! return section -----------------------------------
   return (
     <div className="bg-gray-900 min-h-screen">
       <Navbar />
 
       {/* Filter + Sort section */}
-      <div className="mb-4 flex items-center justify-center gap-6">
-        <div className="flex gap-2">
+      <div className="mb-4 flex flex-wrap items-center justify-center gap-4">
+        {/* Desktop Filters */}
+        <div className="hidden sm:flex flex-wrap items-center gap-2">
           {(["all", "movie", "series"] as const).map((f) => (
             <button
               key={f}
               onClick={() => setFilter(f)}
-              className={`px-3 py-1 rounded text-sm transition ${
+              className={`px-4 py-2 rounded-md text-sm transition min-w-[80px] text-center ${
                 filter === f
                   ? "bg-red-600 text-white"
                   : "bg-gray-800 text-gray-300 hover:bg-gray-700"
@@ -75,12 +69,10 @@ const Home: React.FC = () => {
               {f === "all" ? "All" : f === "movie" ? "Movies" : "Series"}
             </button>
           ))}
-        </div>
-        {/* sorted section */}
-        <div className="flex gap-2">
+
           <button
             onClick={() => setSortOrder("newest")}
-            className={`px-3 py-1 rounded text-sm transition ${
+            className={`px-4 py-2 rounded-md text-sm transition min-w-[80px] text-center ${
               sortOrder === "newest"
                 ? "bg-red-600 text-white"
                 : "bg-gray-800 text-gray-300 hover:bg-gray-700"
@@ -90,7 +82,7 @@ const Home: React.FC = () => {
           </button>
           <button
             onClick={() => setSortOrder("oldest")}
-            className={`px-3 py-1 rounded text-sm transition ${
+            className={`px-4 py-2 rounded-md text-sm transition min-w-[80px] text-center ${
               sortOrder === "oldest"
                 ? "bg-red-600 text-white"
                 : "bg-gray-800 text-gray-300 hover:bg-gray-700"
@@ -98,56 +90,149 @@ const Home: React.FC = () => {
           >
             Oldest
           </button>
-        </div>
-        {/* Sort By Genre */}
-        <div className="relative inline-block text-left my-4">
-          <button
-            onClick={() => setGenreOpen((prev) => !prev)}
-            className="px-4 py-2 bg-gray-800 text-white rounded-md shadow hover:bg-gray-700 focus:outline-none"
-          >
-            {genreFilter === "all" ? "All Genres" : genreFilter}
-          </button>
 
-          {genreOpen && (
-            <div className="absolute mt-2 w-56 rounded-md shadow-lg bg-gray-900 ring-1 ring-black ring-opacity-5 z-50">
-              <div className="py-1">
-                <button
-                  onClick={() => {
-                    setGenreFilter("all");
-                    setGenreOpen(false);
-                  }}
-                  className="block w-full text-left px-4 py-2 text-sm text-gray-200 hover:bg-gray-700"
-                >
-                  All Genres
-                </button>
+          {/* Genre Filter */}
+          <div className="relative inline-block text-left">
+            <button
+              onClick={() => setGenreOpen((prev) => !prev)}
+              className="px-4 py-2 rounded-md text-sm min-w-[80px] text-center bg-gray-800 text-white shadow hover:bg-gray-700 focus:outline-none"
+            >
+              {genreFilter === "all" ? "All Genres" : genreFilter}
+            </button>
 
-                {genres.map((g) => (
+            {genreOpen && (
+              <div className="absolute mt-2 w-56 rounded-md shadow-lg bg-gray-900 ring-1 ring-black ring-opacity-5 z-50">
+                <div className="py-1">
                   <button
-                    key={g}
                     onClick={() => {
-                      setGenreFilter(g);
+                      setGenreFilter("all");
                       setGenreOpen(false);
                     }}
                     className="block w-full text-left px-4 py-2 text-sm text-gray-200 hover:bg-gray-700"
                   >
-                    {g}
+                    All Genres
                   </button>
-                ))}
+                  {genres.map((g) => (
+                    <button
+                      key={g}
+                      onClick={() => {
+                        setGenreFilter(g);
+                        setGenreOpen(false);
+                      }}
+                      className="block w-full text-left px-4 py-2 text-sm text-gray-200 hover:bg-gray-700"
+                    >
+                      {g}
+                    </button>
+                  ))}
+                </div>
               </div>
+            )}
+          </div>
+        </div>
+
+        {/* Mobile Menu */}
+        <div className="sm:hidden relative">
+          <button
+            onClick={() => setMobileMenuOpen((prev) => !prev)}
+            className="px-4 py-2 rounded-md bg-gray-800 text-white text-sm shadow hover:bg-gray-700 focus:outline-none"
+          >
+            Filters
+          </button>
+
+          {mobileMenuOpen && (
+            <div className="absolute mt-2 w-56 rounded-md shadow-lg bg-gray-900 ring-1 ring-black ring-opacity-5 z-50 flex flex-col gap-2 p-2">
+              {(["all", "movie", "series"] as const).map((f) => (
+                <button
+                  key={f}
+                  onClick={() => {
+                    setFilter(f);
+                    setMobileMenuOpen(false);
+                  }}
+                  className={`px-4 py-2 rounded-md text-sm text-left ${
+                    filter === f
+                      ? "bg-red-600 text-white"
+                      : "bg-gray-800 text-gray-300 hover:bg-gray-700"
+                  }`}
+                >
+                  {f === "all" ? "All" : f === "movie" ? "Movies" : "Series"}
+                </button>
+              ))}
+
+              <button
+                onClick={() => {
+                  setSortOrder("newest");
+                  setMobileMenuOpen(false);
+                }}
+                className={`px-4 py-2 rounded-md text-sm text-left ${
+                  sortOrder === "newest"
+                    ? "bg-red-600 text-white"
+                    : "bg-gray-800 text-gray-300 hover:bg-gray-700"
+                }`}
+              >
+                Newest
+              </button>
+              <button
+                onClick={() => {
+                  setSortOrder("oldest");
+                  setMobileMenuOpen(false);
+                }}
+                className={`px-4 py-2 rounded-md text-sm text-left ${
+                  sortOrder === "oldest"
+                    ? "bg-red-600 text-white"
+                    : "bg-gray-800 text-gray-300 hover:bg-gray-700"
+                }`}
+              >
+                Oldest
+              </button>
+
+              <button
+                onClick={() => setGenreOpen((prev) => !prev)}
+                className="px-4 py-2 rounded-md text-sm text-left bg-gray-800 text-white hover:bg-gray-700"
+              >
+                {genreFilter === "all" ? "All Genres" : genreFilter}
+              </button>
+
+              {genreOpen && (
+                <div className="flex flex-col gap-1 mt-1">
+                  <button
+                    onClick={() => {
+                      setGenreFilter("all");
+                      setGenreOpen(false);
+                      setMobileMenuOpen(false);
+                    }}
+                    className="px-4 py-2 text-sm text-left text-gray-200 hover:bg-gray-700 rounded-md"
+                  >
+                    All Genres
+                  </button>
+                  {genres.map((g) => (
+                    <button
+                      key={g}
+                      onClick={() => {
+                        setGenreFilter(g);
+                        setGenreOpen(false);
+                        setMobileMenuOpen(false);
+                      }}
+                      className="px-4 py-2 text-sm text-left text-gray-200 hover:bg-gray-700 rounded-md"
+                    >
+                      {g}
+                    </button>
+                  ))}
+                </div>
+              )}
             </div>
           )}
         </div>
       </div>
 
-      {/* Wrapper div to center content and limit max width */}
+      {/* Movies Grid */}
       <main className="p-8">
         <div className="mx-auto max-w-[1400px]">
           <div
             className="grid gap-6
-                     grid-cols-2
-                     sm:grid-cols-2
-                     md:grid-cols-5
-                     lg:grid-cols-5"
+                   grid-cols-2
+                   sm:grid-cols-2
+                   md:grid-cols-5
+                   lg:grid-cols-5"
           >
             {loading ? (
               <p className="text-white text-center col-span-full">
@@ -167,6 +252,7 @@ const Home: React.FC = () => {
             )}
           </div>
         </div>
+        {/* Pagination */}
         <div className="flex justify-center space-x-2 mt-6">
           {[...Array(totalPages)].map((_, i) => (
             <button
