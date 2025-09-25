@@ -500,13 +500,503 @@
     "type": "movie"
   },
   {
-    "id": 0,
-    "title": "Inception",
-    "year": 2010,
+    "id": 51,
+    "title": "13 Reasons Why",
+    "year": 2017,
+    "genre": "Drama",
+    "thumbnail": "/covers/thumbnails/13 Reasons Why-thumbnail.jpg",
+    "poster": "/covers/posters/13 Reasons Why-poster.jpg",
+    "description": "Newcomer Katherine Langford plays the role of Hannah, a young woman who takes her own life. Two weeks after her tragic death, a classmate named Clay finds a mysterious box on his porch. Inside the box are recordings made by Hannah --- on whom Clay had a crush --- in which she explains the 13 reasons why she chose to commit suicide",
+    "type": "series"
+  },
+  {
+    "id": 52,
+    "title": "24",
+    "year": 2001,
+    "genre": "Thriller",
+    "thumbnail": "/covers/thumbnails/24-thumbnail.jpg",
+    "poster": "/covers/posters/24-poster.jpg",
+    "description": "24 is an American action drama television series created by Joel Surnow and Robert Cochran for Fox. The series features an ensemble cast, with Kiefer Sutherland starring as American counter-terrorist federal agent Jack Bauer. Each season covers 24 consecutive hours using the real time method of narration, which is emphasized by the display of split screens and a digital clock. Multiple ongoing plot lines of intersecting relevance are covered, with Bauer's plot line serving as the link throughout. The show premiered on November 6, 2001, and spanned 204 episodes over nine seasons, with the series finale broadcast on July 14, 2014. In addition, the television film 24: Redemption aired between seasons six and seven, on November 23, 2008. 24 is a joint production by Imagine Television and 20th Century Fox Television.",
+    "type": "series"
+  },
+  {
+    "id": 53,
+    "title": "1899",
+    "year": 2023,
+    "genre": "Si-Fi",
+    "thumbnail": "/covers/thumbnails/1899-thumbnail.jpg",
+    "poster": "/covers/posters/1899-poster.jpg",
+    "description": "1899 is a multilingual German mystery science fiction television series created by Jantje Friese and Baran bo Odar. It premiered on Netflix in November 2022 and received generally favourable reviews. The series was cancelled in January 2023.",
+    "type": "series"
+  },
+  {
+    "id": 54,
+    "title": "Alice in Borderland",
+    "year": 2020,
+    "genre": "Drama",
+    "thumbnail": "/covers/thumbnails/Alice in Borderland-thumbnail.jpg",
+    "poster": "/covers/posters/Alice in Borderland-poster.jpg",
+    "description": "Alice in Borderland (Japanese: 今際の国のアリス, Hepburn: Imawa no Kuni no Arisu) is a Japanese science fiction thriller drama television series based on the manga of the same name by Haro Aso. The series is directed by Shinsuke Sato. It stars Kento Yamazaki and Tao Tsuchiya as allies trapped in an empty, parallel version of Tokyo, forced to compete as players in dangerous, sadistic games. The type and difficulty of each game is represented by playing cards based on French suites and the games are used to extend their  that, if expired, result in the player's execution by lasers shot from the sky.",
+    "type": "series"
+  },
+  {
+    "id": 55,
+    "title": "Another Life",
+    "year": 2019,
+    "genre": "Si-Fi",
+    "thumbnail": "/covers/thumbnails/Another Life-thumbnail.jpg",
+    "poster": "/covers/posters/Another Life-poster.jpg",
+    "description": "Another Life is an American science fiction drama television series created by Aaron Martin, which premiered on Netflix on July 25, 2019.[1] The series stars Katee Sackhoff, Selma Blair, Justin Chatwin, Samuel Anderson, Elizabeth Ludlow, Blu Hunt, A.J. Rivera, Alexander Eling, Alex Ozerov, Jake Abel, JayR Tinaco, Lina Renna, Jessica Camacho, Barbara Williams, Parveen Dosanjh, Greg Hovanessian, Chanelle Peloso, and Tyler Hoechlin. In October 2019, the series was renewed for a second season, which was released on October 14, 2021.[2][3] Netflix announced it had canceled the series in February 2022",
+    "type": "series"
+  },
+  {
+    "id": 56,
+    "title": "Bad Cop",
+    "year": 2024,
+    "genre": "Thriller",
+    "thumbnail": "/covers/thumbnails/Bad Cop-thumbnail.jpg",
+    "poster": "/covers/posters/Bad Cop-poster.jpg",
+    "description": "Bad Cop is Hindi-language crime thriller television series written by Rensil D'Silva and Rehan Khan and directed by Aditya Datt. It stars Anurag Kashyap, Gulshan Devaiah, Harleen Sethi, Saurabh Sachdeva, Anupam K. Sinha, Subham Sharma, Shatrughan Kumar, and Aishwarya Sushmita",
+    "type": "series"
+  },
+  {
+    "id": 57,
+    "title": "Band Of Brothers",
+    "year": 2001,
+    "genre": "Drama",
+    "thumbnail": "/covers/thumbnails/Band Of Brothers-thumbnail.jpg",
+    "poster": "/covers/posters/Band Of Brothers-poster.jpg",
+    "description": "Band of Brothers is a 2001 American[2] war drama miniseries based on historian Stephen E. Ambrose's 1992 non-fiction book of the same name.[3] It was created by Steven Spielberg and Tom Hanks, who also served as executive producers, and who had collaborated on the 1998 World War II film Saving Private Ryan, where the series got many of its visual cues and crew members.[4] Episodes first aired on HBO from September 9 to November 4, 2001.",
+    "type": "series"
+  },
+  {
+    "id": 58,
+    "title": "Begins ≠ Youth",
+    "year": 2024,
+    "genre": "Drama",
+    "thumbnail": "/covers/thumbnails/Begins ≠ Youth-thumbnail.jpg",
+    "poster": "/covers/posters/Begins ≠ Youth-poster.jpg",
+    "description": "Begins ≠ Youth (Korean: 비긴즈유스) is a 2024 South Korean drama television series based on the BTS Universe, starring Seo Ji-hoon, Noh Jong-hyun, Ahn Ji-ho, Seo Young-joo, Kim Yoon-woo, Jung Woo-jin, and Jeon Jin-seo. It was released on Xclusive from April 30, to May 14, 2024, every Tuesday at 16:00 (KST).",
+    "type": "series"
+  },
+  {
+    "id": 59,
+    "title": "Billionaires' Bunker",
+    "year": 2025,
+    "genre": "Thriller",
+    "thumbnail": "/covers/thumbnails/Billionaires' Bunker-thumbnail.jpg",
+    "poster": "/covers/posters/Billionaires' Bunker-poster.jpg",
+    "description": "In the face of the threat posed by an imminent nuclear war, a group of billionaires hide in a bunker called the Kimera Underground Park. Resentment between two families is fueled in the claustrophobic environment",
+    "type": "series"
+  },
+  {
+    "id": 60,
+    "title": "Boiling Point",
+    "year": 2023,
+    "genre": "Drama",
+    "thumbnail": "/covers/thumbnails/Boiling Point-v.jpg",
+    "poster": "/covers/posters/Boiling Point-poster.jpg",
+    "description": "Boiling Point is a four-episode British television drama miniseries created by Philip Barantini, James Cummings, and Stephen Graham. Co-directed by Barantini and Mounia Akl, it is a continuation and standalone sequel of the 2021 film Boiling Point, also directed by Barantini and featuring many of the same cast. Starring Stephen Graham, Vinette Robinson, and Hannah Walters, the series premiered on BBC One on 1 October 2023, with all episodes released on BBC iPlayer on the same day. It was made for the BBC by Ascendant Fox, Matriarch Productions, and It's All Made Up Productions",
+    "type": "series"
+  },
+  {
+    "id": 61,
+    "title": "Breaking Bad",
+    "year": 2008,
+    "genre": "Drama",
+    "thumbnail": "/covers/thumbnails/Breaking Bad-thumbnail.jpg",
+    "poster": "/covers/posters/Breaking Bad-poster.jpg",
+    "description": "Breaking Bad is an American neo-Western crime drama television series created and produced by Vince Gilligan for AMC. Set and filmed in Albuquerque, New Mexico, the series follows Walter White (Bryan Cranston), an over-qualified, dispirited high-school chemistry teacher struggling with a recent diagnosis of stage-three lung cancer. White turns to a life of crime and partners with a former student, Jesse Pinkman (Aaron Paul), to produce and distribute methamphetamine to secure his family's financial future before he dies, while navigating the dangers of the criminal underworld. The series also stars Anna Gunn, Dean Norris, RJ Mitte, Betsy Brandt, Giancarlo Esposito, Jonathan Banks, and Bob Odenkirk.",
+    "type": "series"
+  },
+  {
+    "id": 62,
+    "title": "Chernobyl",
+    "year": 2019,
+    "genre": "Drama",
+    "thumbnail": "/covers/thumbnails/Chernobyl-thumbnail.jpg",
+    "poster": "/covers/posters/Chernobyl-poster.jpg",
+    "description": "Chernobyl is a 2019 historical drama television miniseries that revolves around the Chernobyl disaster of 1986 and the cleanup efforts that followed. The series was created and written by Craig Mazin and directed by Johan Renck. It features an ensemble cast led by Jared Harris, Stellan Skarsgård, Emily Watson, and Paul Ritter. The series was produced by HBO in the United States and Sky UK in the United Kingdom",
+    "type": "series"
+  },
+  {
+    "id": 63,
+    "title": "Do You Wanna Partner",
+    "year": 2025,
+    "genre": "Comedy",
+    "thumbnail": "/covers/thumbnails/Do You Wanna Partner-thumbnail.jpg",
+    "poster": "/covers/posters/Do You Wanna Partner-poster.jpg",
+    "description": "Do You Wanna Partner is an Indian Hindi-language comedy drama series that premiered on Amazon Prime Video on 12 September 2025. Produced by Dharmatic Entertainment, it is directed by Archit Kumar and Collin D'Cunha and stars Tamannaah Bhatia and Diana Penty as two friends launching a craft beer startup in a male-dominated industry. The series explores female entrepreneurship, friendship, and resourcefulness, with an ensemble cast including Nakuul Mehta, Jaaved Jaaferi, Neeraj Kabi, Shweta Tiwari, Rannvijay Singha, Ayesha Raza Mishra and Sufi Motiwala",
+    "type": "series"
+  },
+  {
+    "id": 64,
+    "title": "Doona!",
+    "year": 2023,
+    "genre": "Drama",
+    "thumbnail": "/covers/thumbnails/Doona-thumbnail.jpg",
+    "poster": "/covers/posters/Doona-poster.jpg",
+    "description": "Doo-na! (Korean: 이두나!) is a 2023 South Korean romance television series starring Bae Suzy and Yang Se-jong, based on the Naver webtoon The Girl Downstairs by Min Song-ah. It was released on Netflix on October 20, 2023",
+    "type": "series"
+  },
+  {
+    "id": 65,
+    "title": "Eric",
+    "year": 2024,
+    "genre": "Thriller",
+    "thumbnail": "/covers/thumbnails/Eric-thumbnail.jpg",
+    "poster": "/covers/posters/Eric-poster.jpg",
+    "description": "Eric is a 2024 British psychological thriller television drama created by Abi Morgan for the streaming service Netflix. It stars Benedict Cumberbatch as a distraught puppeteer whose young son goes missing in 1980s New York City. The script was written by Morgan with Lucy Forbes directing and Holly Pullinger producing the series. The series was released on 30 May 2024",
+    "type": "series"
+  },
+  {
+    "id": 66,
+    "title": "Gen V",
+    "year": 2023,
+    "genre": "Drama",
+    "thumbnail": "/covers/thumbnails/Gen V-thumbnail.jpg",
+    "poster": "/covers/posters/Gen V-poster.jpg",
+    "description": "Gen V is an American satirical superhero television series, developed by Craig Rosenberg, Evan Goldberg, and Eric Kripke, serving as a spin-off of The Boys by Kripke, and loosely based on The Boys comic book story arc We Gotta Go Now by Garth Ennis, Darick Robertson, and John Higgins. The series serves as the third television series in The Boys franchise and its first season is set before the fourth season of The Boys, while its second season is set after it",
+    "type": "series"
+  },
+  {
+    "id": 67,
+    "title": "Hijack",
+    "year": 2023,
+    "genre": "Thriller",
+    "thumbnail": "/covers/thumbnails/Hijack-thumbnail.jpg",
+    "poster": "/covers/posters/Hijack-poster.jpg",
+    "description": "Hijack (stylised as H/JACK) is a thriller television series created by George Kay and Jim Field Smith, with Idris Elba starring in the lead role. It premiered on 28 June 2023 on Apple TV+. In January 2024, it was renewed for a second season",
+    "type": "series"
+  },
+  {
+    "id": 68,
+    "title": "In Treatment",
+    "year": 2008,
+    "genre": "Drama",
+    "thumbnail": "/covers/thumbnails/In Treatment-thumbnail.jpg",
+    "poster": "/covers/posters/In Treatment-poster.jpg",
+    "description": "In Treatment is an American drama television series for HBO, produced and developed by Rodrigo Garcia, based on the Israeli series BeTipul (Hebrew: בטיפול), created by Hagai Levi, Ori Sivan and Nir Bergman",
+    "type": "series"
+  },
+  {
+    "id": 69,
+    "title": "Lady in the Lake",
+    "year": 2024,
+    "genre": "Drama",
+    "thumbnail": "/covers/thumbnails/Lady in the Lake-thumbnail.jpg",
+    "poster": "/covers/posters/Lady in the Lake-poster.jpg",
+    "description": "Lady in the Lake is an American period drama television miniseries based on the novel of the same name by Laura Lippman. The series premiered on Apple TV+ on July 19, 2024.[1] It is set during the 1960s. Lady in the Lake begins in Baltimore, with the disappearance of a young Jewish girl, Tessie Durst, at a Christmas parade. The two lead characters are Maddie Schwartz (Natalie Portman), a Jewish housewife and mother, and Cleo Johnson (Moses Ingram), an African-American mother, wife and bartender. Tessie's disappearance and Cleo's murder mystery arouse Maddie's latent journalistic instincts.",
+    "type": "series"
+  },
+  {
+    "id": 70,
+    "title": "Locke & Key",
+    "year": 2020,
+    "genre": "Horror",
+    "thumbnail": "/covers/thumbnails/Locke & Key-thumbnail.jpg",
+    "poster": "/covers/posters/Locke & Key-poster.jpg",
+    "description": "Locke & Key is an American fantasy drama television series[1][2] developed by Carlton Cuse, Meredith Averill, and Aron Eli Coleite, based on the comic book series of the same name by Joe Hill and Gabriel Rodríguez. It premiered on Netflix on February 7, 2020.[3] The series stars Darby Stanchfield, Connor Jessup, Emilia Jones, Jackson Robert Scott, Laysla De Oliveira, Petrice Jones, and Griffin Gluck.",
+    "type": "series"
+  },
+  {
+    "id": 71,
+    "title": "Loki",
+    "year": 2021,
     "genre": "Action",
-    "thumbnail": "/covers/thumbnails/",
-    "poster": "/covers/posters/",
-    "description": "something",
+    "thumbnail": "/covers/thumbnails/Loki-thumbnail.jpg",
+    "poster": "/covers/posters/Loki-poster.jpg",
+    "description": "Loki is an American television series created by Michael Waldron for the streaming service Disney+, based on Marvel Comics featuring the character of the same name. It is the third television series in the Marvel Cinematic Universe (MCU) produced by Marvel Studios, sharing continuity with the films of the franchise. The series takes place after the events of the film Avengers: Endgame (2019), in which an alternate version of Loki created a new timeline. Waldron served as head writer and Kate Herron directed the first season, with Eric Martin and the duo Justin Benson and Aaron Moorhead serving as head writer and leading the directing team for the second season, respectively",
+    "type": "series"
+  },
+  {
+    "id": 72,
+    "title": "Maledictions",
+    "year": 2025,
+    "genre": "Drama",
+    "thumbnail": "/covers/thumbnails/Maledictions-thumbnail.jpg",
+    "poster": "/covers/posters/Maledictions-poster.jpg",
+    "description": "At a career-defining moment, a governor's child vanishes; torn between ambition and family secrets, the governor must choose between politics or his daughter's safety",
+    "type": "series"
+  },
+  {
+    "id": 73,
+    "title": "Marvel's Iron Fist",
+    "year": 2017,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/Marvel's Iron Fist-thumbnail.jpg",
+    "poster": "/covers/posters/Marvel's Iron Fist-poster.jpg",
+    "description": "Marvel's Iron Fist is an American television series created by Scott Buck for the streaming service Netflix, based on the Marvel Comics character of the same name. It is set in the Marvel Cinematic Universe (MCU), sharing continuity with the franchise's films, and was the fourth Marvel Netflix series leading to the crossover miniseries The Defenders (2017). The series was produced by Marvel Television in association with ABC Studios, with Devilina Productions also producing in the first season. Buck served as showrunner for the first season; Raven Metzner took over for the second",
+    "type": "series"
+  },
+  {
+    "id": 74,
+    "title": "Moon Knight",
+    "year": 2022,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/Moon Knight-thumbnail.jpg",
+    "poster": "/covers/posters/Moon Knight-poster.jpg",
+    "description": "Moon Knight is an American television miniseries created by Jeremy Slater for the streaming service Disney+, based on Marvel Comics featuring the character of the same name. It is the sixth television series in the Marvel Cinematic Universe (MCU) to be produced by Marvel Studios, sharing continuity with the films of the franchise. It follows Marc Spector and Steven Grant, two alters of a man with dissociative identity disorder (DID), as they are drawn into a mystery involving Egyptian gods. Slater serves as head writer with Mohamed Diab leading the directing team",
+    "type": "series"
+  },
+  {
+    "id": 75,
+    "title": "One Hundred Years of Solitude",
+    "year": 2024,
+    "genre": "Drama",
+    "thumbnail": "/covers/thumbnails/One Hundred Years of Solitude-thumbnail.jpg",
+    "poster": "/covers/posters/One Hundred Years of Solitude-poster.jpg",
+    "description": "One Hundred Years of Solitude (Spanish: Cien años de soledad, Latin American Spanish: [sjen ˈaɲos ðe soleˈðað]) is a Colombian television series based on Gabriel García Márquez's 1967 novel of the same name. The series will run for 16 episodes on Netflix, with the first eight released on 11 December 2024",
+    "type": "series"
+  },
+  {
+    "id": 76,
+    "title": "One Piece",
+    "year": 2023,
+    "genre": "Si-Fi",
+    "thumbnail": "/covers/thumbnails/One Piece-thumbnail.jpg",
+    "poster": "/covers/posters/One Piece-poster.jpg",
+    "description": "One Piece (stylized in all caps) is a fantasy adventure television series developed by Matt Owens and Steven Maeda for Netflix. The series is a live-action adaptation of the manga series of the same name by Eiichiro Oda, who serves as creative consultant for the show. It is produced by Kaji Productions and Shueisha, who also publishes the manga. The series stars an ensemble cast including Iñaki Godoy, Emily Rudd, Mackenyu, Jacob Romero Gibson, and Taz Skylar as the members of the Straw Hat Pirates",
+    "type": "series"
+  },
+  {
+    "id": 77,
+    "title": "Ozark",
+    "year": 2017,
+    "genre": "Drama",
+    "thumbnail": "/covers/thumbnails/Ozark-thumbnail.jpg",
+    "poster": "/covers/posters/Ozark-poster.jpg",
+    "description": "Ozark is an American crime drama television series created by Bill Dubuque and Mark Williams for Netflix and produced by MRC Television and Aggregate Films.[2][3][4] The series stars Jason Bateman and Laura Linney as Marty and Wendy Byrde, a married couple who moves their family to the Lake of the Ozarks to continue their work laundering money for a Mexican drug cartel.[5][6] Bateman also serves as a director and executive producer for the series",
+    "type": "series"
+  },
+  {
+    "id": 78,
+    "title": "Peaky Blinders",
+    "year": 2013,
+    "genre": "Drama",
+    "thumbnail": "/covers/thumbnails/Peaky Blinders-thumbnail.jpg",
+    "poster": "/covers/posters/Peaky Blinders-poster.jpg",
+    "description": "Peaky Blinders is a British historical crime drama television series created by Steven Knight. Set in Birmingham, it follows the exploits of the Peaky Blinders crime gang in the direct aftermath of the First World War. The fictional gang is loosely based on a real urban youth gang active in the city from the 1880s to the 1920s.",
+    "type": "series"
+  },
+  {
+    "id": 79,
+    "title": "Percy Jackson and the Olympians",
+    "year": 2021,
+    "genre": "Si-Fi",
+    "thumbnail": "/covers/thumbnails/Percy Jackson and the Olympians-thumbnail.jpg",
+    "poster": "/covers/posters/Percy Jackson and the Olympians-poster.jpg",
+    "description": "Percy Jackson and the Olympians is an American fantasy television series created by Rick Riordan and Jonathan E. Steinberg for Disney+, based on the book series of the same name by Riordan. Walker Scobell stars as Percy Jackson, alongside Leah Sava Jeffries as Annabeth Chase and Aryan Simhadri as Grover Underwood",
+    "type": "series"
+  },
+  {
+    "id": 80,
+    "title": "Prison Break",
+    "year": 2005,
+    "genre": "Drama",
+    "thumbnail": "/covers/thumbnails/Prison Break-thumbnail.jpg",
+    "poster": "/covers/posters/Prison Break-poster.jpg",
+    "description": "Prison Break is an American crime drama television series created by Paul Scheuring for Fox. The series revolves around two brothers: Lincoln Burrows (Dominic Purcell) and Michael Scofield (Wentworth Miller); Lincoln has been sentenced to death for a crime he did not commit, while Michael devises an elaborate plan to help his brother escape prison and clear his name. Along with creator Paul Scheuring, the series was executive-produced by Matt Olmstead, Kevin Hooks, Marty Adelstein, Dawn Parouse, Neal H. Moritz, and Brett Ratner who directed the pilot episode. The series' theme music, composed by Ramin Djawadi, was nominated for a Primetime Emmy Award in 2006.[1] Prison Break is a joint production between Original Film, Adelstein/Parouse Productions (seasons 1–4), Dawn Olmstead Productions (season 5), Adelstein Productions (season 5), One Light Road Productions (season 5), and 20th Century Fox Television.",
+    "type": "series"
+  },
+  {
+    "id": 81,
+    "title": "Shardlake",
+    "year": 2024,
+    "genre": "Thriller ",
+    "thumbnail": "/covers/thumbnails/Shardlake-thumbnail.jpg",
+    "poster": "/covers/posters/Shardlake-poster.jpg",
+    "description": "Shardlake is a four-part television series on Disney+ based on the Shardlake series of historical mystery novels by C. J. Sansom set in the reign of Henry VIII in the 16th century. The series is adapted by Stephen Butchard and directed by Justin Chadwick and produced by The Forge. Arthur Hughes stars as the eponymous Matthew Shardlake, alongside Sean Bean as Thomas Cromwell. C. J. Sansom died on 27 April 2024, just four days before the series premiere.[1] In January 2025, the series was cancelled after one season",
+    "type": "series"
+  },
+  {
+    "id": 82,
+    "title": "Sherlock",
+    "year": 2010,
+    "genre": "Crime",
+    "thumbnail": "/covers/thumbnails/Sherlock-thumbnail.jpg",
+    "poster": "/covers/posters/Sherlock-poster.jpg",
+    "description": "Sherlock is a British mystery crime drama television series based on Sir Arthur Conan Doyle's Sherlock Holmes detective stories. Created by Steven Moffat and Mark Gatiss, the show starred Benedict Cumberbatch as Sherlock Holmes and Martin Freeman as Doctor John Watson. Thirteen episodes were produced, with four three-part series airing from 2010 to 2017 and a special episode that aired on 1 January 2016. The series is set in the present day in which it aired. The one-off special features a Victorian-period fantasy resembling the original Holmes stories",
+    "type": "series"
+  },
+  {
+    "id": 83,
+    "title": "Snowpiercer",
+    "year": 2020,
+    "genre": "Thriller",
+    "thumbnail": "/covers/thumbnails/Snowpiercer-thumbnail.jpg",
+    "poster": "/covers/posters/Snowpiercer-poster.jpg",
+    "description": "Snowpiercer is an American post-apocalyptic dystopian thriller television series that premiered on May 17, 2020, on TNT. It is based on both the 2013 film of the same name, directed by Bong Joon-ho, and the 1982 French graphic novel Le Transperceneige by Jacques Lob, Benjamin Legrand and Jean-Marc Rochette, from which the film was adapted",
+    "type": "series"
+  },
+  {
+    "id": 84,
+    "title": "Spy × Family",
+    "year": 2023,
+    "genre": "Crime",
+    "thumbnail": "/covers/thumbnails/Spy × Family-thumbnail.jpeg",
+    "poster": "/covers/posters/Spy × Familyposter.jpeg",
+    "description": "Spy × Family (stylized as SPY×FAMILY and pronounced spy family)[3][4][5] is a Japanese web manga series written and illustrated by Tatsuya Endo. The story follows Loid Forger, an enigmatic spy who has to build a family to execute a mission, not realizing that his adopted daughter is a telepath, and the woman he agrees to marry is a skilled assassin. The series has been serialized biweekly on Shueisha's Shōnen Jump+ app and website since March 2019, with its chapters collected in 15 tankōbon volumes as of March 2025. It is licensed in North America by Viz Media",
+    "type": "series"
+  },
+  {
+    "id": 85,
+    "title": "The Blacklist",
+    "year": 2013,
+    "genre": "Crime",
+    "thumbnail": "/covers/thumbnails/The Blacklist-thumbnail.jpg",
+    "poster": "/covers/posters/The Blacklist-poster.jpg",
+    "description": "The Blacklist is an American crime thriller television series created by Jon Bokenkamp and developed by John Eisendrath. It stars James Spader as Raymond Reddington, an international criminal and one of the FBI's Most Wanted fugitives who cooperates with the FBI in hunting down other criminals on his Blacklist. The series also stars Megan Boone, Diego Klattenhoff, Ryan Eggold, Amir Arison, Hisham Tawfiq, and Harry Lennix",
+    "type": "series"
+  },
+  {
+    "id": 86,
+    "title": "The Continental",
+    "year": 2023,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/The Continental-thumbnail.jpg",
+    "poster": "/covers/posters/The Continental-poster.jpg",
+    "description": "The Continental: From the World of John Wick (or simply The Continental ) is an American neo noir crime-action drama television miniseries developed by Greg Coolidge, Kirk Ward, and Shawn Simmons that serves as a spin-off and a prequel in the John Wick franchise. Coolidge and Ward served as showrunners for the series and wrote the scripts alongside Simmons and Ken Kristensen. Albert Hughes directed the first and third episodes, and Charlotte Brändström directed the second. The show stars Mel Gibson and Colin Woodell",
+    "type": "series"
+  },
+  {
+    "id": 87,
+    "title": "The Crowded Room",
+    "year": 2023,
+    "genre": "Thriller",
+    "thumbnail": "/covers/thumbnails/The Crowded Room-thumbnail.jpg",
+    "poster": "/covers/posters/The Crowded Room-poster.jpg",
+    "description": "The Crowded Room is an American psychological thriller miniseries created by Akiva Goldsman and inspired by the 1981 non-fiction novel The Minds of Billy Milligan by Daniel Keyes. Tom Holland, Amanda Seyfried, and Emmy Rossum lead a supporting cast that includes Sasha Lane, Will Chase, Lior Raz, Laila Robins, and Henry Eikenberry",
+    "type": "series"
+  },
+  {
+    "id": 88,
+    "title": "The Fall of the House of Usher",
+    "year": 2023,
+    "genre": "Horror",
+    "thumbnail": "/covers/thumbnails/The Fall of the House of Usher-thumbnail.jpg",
+    "poster": "/covers/posters/The Fall of the House of Usher-poster.jpg",
+    "description": "The Fall of the House of Usher is an American gothic horror drama television miniseries created by Mike Flanagan. All eight episodes were released on Netflix on October 12, 2023, each directed by either Flanagan or Michael Fimognari, with the latter also acting as cinematographer for the entire series",
+    "type": "series"
+  },
+  {
+    "id": 89,
+    "title": "The Handmaid's Tale",
+    "year": 2017,
+    "genre": "Drama",
+    "thumbnail": "/covers/thumbnails/The Handmaid's Tale-thumbnail.jpg",
+    "poster": "/covers/posters/The Handmaid's Tale-poster.jpg",
+    "description": "The Handmaid's Tale is an American dystopian television series created by Bruce Miller, based on the 1985 novel The Handmaid's Tale by Canadian author Margaret Atwood. The series was ordered by the streaming service Hulu as a straight-to-series order of ten episodes, for which production began in late 2016. The plot features a dystopia following a Second American Civil War wherein a theonomic, totalitarian society subjects fertile women, called Handmaids, to child-bearing slavery.",
+    "type": "series"
+  },
+  {
+    "id": 90,
+    "title": "The Haunting of Hill House",
+    "year": 2018,
+    "genre": "Horror",
+    "thumbnail": "/covers/thumbnails/The Haunting of Hill House-thumbnail.jpg",
+    "poster": "/covers/posters/The Haunting of Hill House-poster.jpg",
+    "description": "The Haunting of Hill House is an American supernatural horror drama television miniseries created and directed by Mike Flanagan, produced by Amblin Television and Paramount Television for Netflix, and serves as the first entry in The Haunting anthology series. It is loosely based on the 1959 novel of the same name by Shirley Jackson. The plot alternates between two timelines, following five adult siblings whose paranormal experiences at Hill House continue to haunt them in the present day, and flashbacks depicting events leading up to the eventful night in 1992 when the family fled from the mansion. The ensemble cast features Michiel Huisman, Elizabeth Reaser, Oliver Jackson-Cohen, Kate Siegel, and Victoria Pedretti as the siblings in adulthood, with Carla Gugino and Henry Thomas as parents Olivia and Hugh Crain, and Timothy Hutton appearing as an older version of Hugh",
+    "type": "series"
+  },
+  {
+    "id": 91,
+    "title": "The Last of Us",
+    "year": 2023,
+    "genre": "Drama",
+    "thumbnail": "/covers/thumbnails/The Last of Us-thumbnail.jpg",
+    "poster": "/covers/posters/The Last of Us-poster.jpg",
+    "description": "The Last of Us is an American post-apocalyptic drama television series created by Craig Mazin and Neil Druckmann for HBO. Based on the video game franchise developed by Naughty Dog, the series is set decades after the collapse of society caused by a mass fungal infection that transforms its hosts into zombie-like creatures. The first season, based on 2013's The Last of Us, follows Joel (Pedro Pascal) and Ellie (Bella Ramsey) as they travel across the United States. In the second season, based on the first half of 2020's The Last of Us Part II, they have settled in Jackson, Wyoming, with Joel's brother Tommy (Gabriel Luna) and Ellie's friends Dina (Isabela Merced) and Jesse (Young Mazino). After Joel's death, the group travels to Seattle to track down his killer, Abby (Kaitlyn Dever), who is set to be the focus of the third season",
+    "type": "series"
+  },
+  {
+    "id": 92,
+    "title": "The Punisher",
+    "year": 2017,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/The Punisher-thumbnail.jpg",
+    "poster": "/covers/posters/The Punisher-poster.jpg",
+    "description": "Marvel's The Punisher is an American television series created by Steve Lightfoot for the streaming service Netflix, based on the Marvel Comics character Punisher. It is set in the Marvel Cinematic Universe (MCU), sharing continuity with the franchise's films and other television series. It is a spin-off from the first Marvel Netflix series, Daredevil (2015–2018). The Punisher was produced by Marvel Television in association with ABC Studios and Bohemian Risk Productions, with Lightfoot serving as showrunner",
+    "type": "series"
+  },
+  {
+    "id": 93,
+    "title": "The Terminal List: Dark Wolf",
+    "year": 2025,
+    "genre": "Thriller",
+    "thumbnail": "/covers/thumbnails/The Terminal List Dark Wolf-thumbnail.jpg",
+    "poster": "/covers/posters/The Terminal List Dark Wolf-poster.jpg",
+    "description": "The Terminal List: Dark Wolf is an American action thriller television series based on characters from the 2018 novel The Terminal List by Jack Carr. Created by Carr and David DiGilio, the series is a prequel to The Terminal List, in which the story follows Ben Edwards throughout his journey as a Navy SEAL to the CIA delving into the darker side of warfare and its human cost.",
+    "type": "series"
+  },
+  {
+    "id": 94,
+    "title": "The Watchers",
+    "year": 2024,
+    "genre": "Thriller ",
+    "thumbnail": "/covers/thumbnails/The Watchers-thumbnail.jpg",
+    "poster": "/covers/posters/The Watchers-poster.jpg",
+    "description": "The Watchers is a 2024 American supernatural horror fantasy film written for the screen and directed by Ishana Night Shyamalan in her directorial debut, produced by her father M. Night Shyamalan, and based on the 2021 novel by A. M. Shine.[5][6] It stars Dakota Fanning, Georgina Campbell, Olwen Fouéré and Oliver Finnegan, and follows Mina, a 28-year-old artist who becomes trapped in a vast, untouched forest in the west of Ireland. Seeking shelter, she becomes trapped alongside three strangers who are stalked by mysterious creatures every night",
+    "type": "series"
+  },
+  {
+    "id": 95,
+    "title": "The Wire",
+    "year": 2002,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/The Wire-thumbnail.jpg",
+    "poster": "/covers/posters/The Wire-poster.jpg",
+    "description": "The Wire is an American crime drama television series created and primarily written by American author and former police reporter David Simon for the cable network HBO. The series premiered on June 2, 2002, and ended on March 9, 2008, comprising 60 episodes over five seasons. The idea for the show started out as a police drama loosely based on the experiences of Simon's writing partner Ed Burns, a former homicide detective and public school teacher",
+    "type": "series"
+  },
+  {
+    "id": 96,
+    "title": "Time Bandits",
+    "year": 2024,
+    "genre": "Si-Fi",
+    "thumbnail": "/covers/thumbnails/Time Bandits-thumbnail.jpg",
+    "poster": "/covers/posters/Time Bandits-poster.jpg",
+    "description": "Time Bandits is a fantasy adventure television series created by Jemaine Clement, Iain Morris, and Taika Waititi, based on characters from the 1981 film of the same name directed by Terry Gilliam. The series premiered on July 24, 2024, on Apple TV+. In September 2024, the series was canceled after one season.",
+    "type": "series"
+  },
+  {
+    "id": 97,
+    "title": "Vikings: Valhalla",
+    "year": 2022,
+    "genre": "Drama",
+    "thumbnail": "/covers/thumbnails/Vikings Valhalla-thumbnail.jpg",
+    "poster": "/covers/posters/Vikings Valhalla-poster.jpg",
+    "description": "Vikings: Valhalla, or simply Valhalla, is a historical drama television series created by Jeb Stuart for Netflix that serves as a sequel to Vikings. The eight-episode first season premiered on February 25, 2022. With a 24-episode order announced in November 2019, the series was renewed for a second and third season in March 2022. The second season premiered on January 12, 2023. The third and final season premiered on July 11, 2024",
+    "type": "series"
+  },
+  {
+    "id": 98,
+    "title": "Vikings",
+    "year": 2013,
+    "genre": "Drama",
+    "thumbnail": "/covers/thumbnails/Vikings-thumbnail.jpg",
+    "poster": "/covers/posters/Vikings-poster.jpg",
+    "description": "Vikings is a historical drama television series created and written by Michael Hirst. A co-production between Canada and Ireland, the series originally premiered on the History Channel on March 3, 2013. The series concluded with its broadcast on History in Canada from January 1 to March 3, 2021, after the second half of the sixth season was released in its entirety on Amazon Prime Video in Ireland on December 30, 2020. A sequel series, titled Vikings: Valhalla, premiered on Netflix on February 25, 2022",
+    "type": "series"
+  },
+  {
+    "id": 99,
+    "title": "Warrior Nun",
+    "year": 2020,
+    "genre": "Action",
+    "thumbnail": "/covers/thumbnails/Warrior Nun-thumbnail.jpg",
+    "poster": "/covers/posters/Warrior Nun-poster.jpg",
+    "description": "Warrior Nun is an American fantasy drama television series created by Simon Barry based on the comic book character Warrior Nun Areala by Ben Dunn. Developed as a feature film adaptation, the idea was re-imagined as a television series for Netflix when the service had given the production a series order for a first season. Filming takes place in multiple locations in Andalusia, Spain, such as Antequera, where the headquarters of the fictional Order of the Cruciform Sword was filmed",
+    "type": "series"
+  },
+  {
+    "id": 100,
+    "title": "Wednesday",
+    "year": 2022,
+    "genre": "Horror",
+    "thumbnail": "/covers/thumbnails/Wednesday-thumbnail.jpg",
+    "poster": "/covers/posters/Wednesday-poster.jpg",
+    "description": "Wednesday is an American supernatural mystery comedy[3] television series based on the character Wednesday Addams by Charles Addams. Created by Alfred Gough and Miles Millar, it stars Jenna Ortega as the titular character, with Luis Guzmán and Catherine Zeta-Jones portraying her parents in the series. Four out of the eight episodes of the first season were directed by Tim Burton, who also was executive producer. The first season revolves around Wednesday Addams, who attempts to solve a murder mystery at her new school",
     "type": "series"
   }
 ]
