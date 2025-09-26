@@ -253,20 +253,53 @@ const Home: React.FC = () => {
           </div>
         </div>
         {/* Pagination */}
-        <div className="flex justify-center space-x-2 mt-6">
-          {[...Array(totalPages)].map((_, i) => (
-            <button
-              key={i}
-              onClick={() => setCurrentPage(i + 1)}
-              className={`px-4 py-2 rounded cursor-pointer ${
-                currentPage === i + 1
-                  ? "bg-red-500 text-white"
-                  : "bg-gray-700 text-gray-300"
-              }`}
-            >
-              {i + 1}
-            </button>
-          ))}
+        <div className="flex justify-center mt-6">
+          {/* دسکتاپ - نمایش همه دکمه‌ها */}
+          <div className="hidden sm:flex space-x-2">
+            {[...Array(totalPages)].map((_, i) => (
+              <button
+                key={i}
+                onClick={() => setCurrentPage(i + 1)}
+                className={`px-4 py-2 rounded cursor-pointer ${
+                  currentPage === i + 1
+                    ? "bg-red-500 text-white"
+                    : "bg-gray-700 text-gray-300"
+                }`}
+              >
+                {i + 1}
+              </button>
+            ))}
+          </div>
+
+          {/* موبایل - نمایش فقط چند دکمه */}
+          <div className="flex sm:hidden space-x-2">
+            {Array.from({ length: totalPages }, (_, i) => i + 1)
+              .filter(
+                (page) =>
+                  page === 1 || // همیشه اول
+                  page === totalPages || // همیشه آخر
+                  (page >= currentPage - 2 && page <= currentPage + 2) // نزدیک فعلی
+              )
+              .map((page, idx, arr) => (
+                <React.Fragment key={page}>
+                  {/* نقطه‌چین بین فاصله‌ها */}
+                  {idx > 0 && page - arr[idx - 1] > 1 && (
+                    <span className="px-2 text-gray-400">...</span>
+                  )}
+
+                  <button
+                    onClick={() => setCurrentPage(page)}
+                    className={`px-3 py-1 rounded cursor-pointer ${
+                      currentPage === page
+                        ? "bg-red-500 text-white"
+                        : "bg-gray-700 text-gray-300"
+                    }`}
+                  >
+                    {page}
+                  </button>
+                </React.Fragment>
+              ))}
+          </div>
         </div>
       </main>
 
