@@ -69,27 +69,20 @@ const Home: React.FC = () => {
               {f === "all" ? "All" : f === "movie" ? "Movies" : "Series"}
             </button>
           ))}
-
-          <button
-            onClick={() => setSortOrder("newest")}
-            className={`px-4 py-2 rounded-md text-sm transition min-w-[80px] text-center ${
-              sortOrder === "newest"
-                ? "bg-red-600 text-white"
-                : "bg-gray-800 text-gray-300 hover:bg-gray-700"
-            }`}
-          >
-            Newest
-          </button>
-          <button
-            onClick={() => setSortOrder("oldest")}
-            className={`px-4 py-2 rounded-md text-sm transition min-w-[80px] text-center ${
-              sortOrder === "oldest"
-                ? "bg-red-600 text-white"
-                : "bg-gray-800 text-gray-300 hover:bg-gray-700"
-            }`}
-          >
-            Oldest
-          </button>
+          {/* buttons  */}
+          {(["newest", "oldest"] as const).map((order) => (
+            <button
+              key={order}
+              onClick={() => setSortOrder(order)}
+              className={`px-4 py-2 rounded-md text-sm transition min-w-[80px] text-center ${
+                sortOrder === order
+                  ? "bg-red-600 text-white"
+                  : "bg-gray-800 text-gray-300 hover:bg-gray-700"
+              }`}
+            >
+              {order === "newest" ? "Newest" : "Oldest"}
+            </button>
+          ))}
 
           {/* Genre Filter */}
           <div className="relative inline-block text-left">
